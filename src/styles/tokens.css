@@ -1,0 +1,65 @@
+/* ============================================================
+   HiCom — design tokens
+   Palette: verdi profondi della reference + teal del marchio
+   + brass premium, su carta chiara. Tema chiaro unico.
+   ============================================================ */
+:root {
+  /* Verdi profondi (reference) */
+  --green-950: #051f20;
+  --green-900: #0b2b26;
+  --green-800: #163832;
+  --green-700: #235347;
+  --green-300: #8eb69b;
+  --green-100: #daf1de;
+  --green-50: #edf8f0;
+
+  /* Teal — marchio, azioni, stati attivi */
+  --teal-700: #0b6e5c;
+  --teal-600: #0f8e77;
+  --teal-500: #24bba1;
+  --teal-300: #8ce6d4;
+  --teal-100: #d9f6ef;
+
+  /* Brass — accenti premium (Vetrina Curata, badge) */
+  --brass-700: #9c7331;
+  --brass-500: #c69a5b;
+  --brass-300: #e7c089;
+  --brass-100: #f7ecdb;
+
+  /* Neutri di carta */
+  --paper: #f6faf8;
+  --surface: #ffffff;
+  --ink: #0c1a17;
+  --muted: #5e7370;
+  --line: #dce8e2;
+  --danger: #c0483a;
+  --danger-100: #f9e5e2;
+
+  /* Tipografia */
+  --font-sans: 'Cantarell', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* Raggi */
+  --r-sm: 10px;
+  --r-md: 16px;
+  --r-lg: 24px;
+  --r-pill: 999px;
+
+  /* Ombre (tinta verde, mai grigio puro) */
+  --shadow-sm: 0 1px 2px rgba(12, 26, 23, 0.05), 0 4px 14px rgba(12, 26, 23, 0.06);
+  --shadow-md: 0 2px 4px rgba(12, 26, 23, 0.06), 0 10px 30px rgba(12, 26, 23, 0.1);
+  --shadow-lg: 0 4px 8px rgba(12, 26, 23, 0.08), 0 24px 60px rgba(12, 26, 23, 0.14);
+
+  /* Focus ring */
+  --ring: 0 0 0 3px rgba(36, 187, 161, 0.35);
+
+  /* Layout */
+  --maxw: 1140px;
+  --gutter: 20px;
+  --bottomnav-h: 62px;
+  --header-h: 60px;
+
+  /* Transizioni */
+  --t-fast: 160ms cubic-bezier(0.4, 0, 0.2, 1);
+  --t-med: 280ms cubic-bezier(0.4, 0, 0.2, 1);
+}

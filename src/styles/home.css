@@ -1,0 +1,247 @@
+/* ============================================================
+   HiCom — home page
+   ============================================================ */
+
+/* ---- hero ------------------------------------------------------ */
+.hero {
+  background: linear-gradient(160deg, var(--green-950) 0%, var(--green-800) 78%, var(--green-700) 100%);
+  padding: 18px 0 46px;
+  position: relative;
+}
+
+/* chiusura organica: curva morbida verso la carta */
+.hero::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 30px;
+  background: var(--paper);
+  border-radius: 100% 100% 0 0 / 200% 200% 0 0;
+}
+
+.hero-greeting {
+  max-width: var(--maxw);
+  margin: 0 auto 14px;
+  padding: 0 var(--gutter);
+  color: var(--green-100);
+}
+.hero-greeting .eyebrow {
+  color: var(--teal-300);
+}
+.hero-greeting h1 {
+  font-size: 1.45rem;
+  color: #fff;
+  margin-top: 3px;
+}
+
+.hero-rail {
+  display: flex;
+  gap: 14px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 4px var(--gutter) 8px;
+  scrollbar-width: none;
+  max-width: var(--maxw);
+  margin: 0 auto;
+}
+.hero-rail::-webkit-scrollbar {
+  display: none;
+}
+
+.hero-slide {
+  position: relative;
+  scroll-snap-align: center;
+  flex: 0 0 88%;
+  aspect-ratio: 16 / 10;
+  border-radius: var(--r-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  display: flex;
+  align-items: flex-end;
+  color: #fff;
+}
+.hero-slide img,
+.hero-slide .ph {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero-slide::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(5, 31, 32, 0.88) 0%, rgba(5, 31, 32, 0.25) 55%, rgba(5, 31, 32, 0.05) 100%);
+  z-index: 1;
+}
+.hero-slide-content {
+  position: relative;
+  z-index: 2;
+  padding: 18px;
+}
+.hero-slide-content .eyebrow {
+  color: var(--teal-300);
+}
+.hero-slide-content h2 {
+  font-size: 1.3rem;
+  margin: 4px 0 4px;
+  color: #fff;
+}
+.hero-slide-content p {
+  font-size: 0.85rem;
+  color: var(--green-100);
+  max-width: 42ch;
+}
+.hero-slide-content .btn {
+  margin-top: 12px;
+}
+
+.hero-dots {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  margin-top: 12px;
+}
+.hero-dots button {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: rgba(218, 241, 222, 0.35);
+  transition: all var(--t-med);
+}
+.hero-dots button.active {
+  background: var(--teal-300);
+  width: 22px;
+  border-radius: 4px;
+}
+
+/* barra di ricerca finta che porta a Esplora */
+.searchbar {
+  max-width: calc(var(--maxw) - 500px);
+  margin: -30px auto 0;
+  padding: 0 var(--gutter);
+  position: relative;
+  z-index: 5;
+}
+.searchbar a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--surface);
+  border-radius: var(--r-pill);
+  box-shadow: var(--shadow-md);
+  padding: 14px 20px;
+  color: var(--muted);
+  font-size: 0.92rem;
+  transition: box-shadow var(--t-fast), transform var(--t-fast);
+}
+.searchbar a:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-1px);
+}
+
+/* ---- categorie --------------------------------------------------- */
+.cat-rail {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 4px var(--gutter) 10px;
+  scrollbar-width: none;
+  max-width: var(--maxw);
+  margin: 0 auto;
+}
+.cat-rail::-webkit-scrollbar {
+  display: none;
+}
+.cat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  flex-shrink: 0;
+  width: 76px;
+}
+.cat-item .cat-ico {
+  width: 58px;
+  height: 58px;
+  border-radius: 20px;
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+  display: grid;
+  place-items: center;
+  font-size: 1.5rem;
+  transition: transform var(--t-fast), box-shadow var(--t-fast);
+}
+.cat-item:hover .cat-ico {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+.cat-item span.lbl {
+  font-size: 0.66rem;
+  font-weight: 700;
+  color: var(--green-800);
+  text-align: center;
+  line-height: 1.2;
+}
+
+/* ---- feed ---------------------------------------------------------- */
+.feed {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.feed-discover {
+  background: linear-gradient(135deg, var(--green-100), #fff 70%);
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-sm);
+  padding: 14px;
+}
+.feed-discover .eyebrow {
+  display: block;
+  margin-bottom: 8px;
+}
+.feed-discover .merchant-card {
+  box-shadow: none;
+  padding: 0;
+  background: transparent;
+}
+.feed-discover .merchant-card:hover {
+  transform: none;
+}
+
+/* ---- desktop -------------------------------------------------------- */
+@media (min-width: 880px) {
+  .hero {
+    padding: 34px 0 64px;
+  }
+  .hero::after {
+    height: 44px;
+  }
+  .hero-greeting h1 {
+    font-size: 2rem;
+  }
+  .hero-slide {
+    flex: 0 0 72%;
+    aspect-ratio: 21 / 9;
+  }
+  .hero-slide-content {
+    padding: 30px 34px;
+  }
+  .hero-slide-content h2 {
+    font-size: 1.9rem;
+  }
+  .hero-slide-content p {
+    font-size: 1rem;
+  }
+  .rail.offers-rail > *,
+  .rail.news-rail > * {
+    flex-basis: 300px;
+  }
+}

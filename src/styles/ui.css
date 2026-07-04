@@ -1,0 +1,469 @@
+/* ============================================================
+   HiCom — componenti UI condivisi
+   ============================================================ */
+
+/* ---- bottoni -------------------------------------------------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 0.92rem;
+  border-radius: var(--r-pill);
+  padding: 11px 20px;
+  background: var(--teal-600);
+  color: #fff;
+  transition: background var(--t-fast), transform var(--t-fast), box-shadow var(--t-fast);
+}
+.btn:hover {
+  background: var(--teal-700);
+  transform: translateY(-1px);
+}
+.btn:active {
+  transform: translateY(0);
+}
+.btn.dark {
+  background: var(--green-800);
+}
+.btn.dark:hover {
+  background: var(--green-700);
+}
+.btn.ghost {
+  background: transparent;
+  color: var(--green-800);
+  box-shadow: inset 0 0 0 1.5px var(--line);
+}
+.btn.ghost:hover {
+  background: var(--green-50);
+  box-shadow: inset 0 0 0 1.5px var(--green-300);
+}
+.btn.brass {
+  background: var(--brass-500);
+  color: var(--green-950);
+}
+.btn.brass:hover {
+  background: var(--brass-300);
+}
+.btn.danger {
+  background: var(--danger-100);
+  color: var(--danger);
+}
+.btn.sm {
+  padding: 7px 14px;
+  font-size: 0.8rem;
+}
+.btn:disabled {
+  opacity: 0.45;
+  pointer-events: none;
+}
+.btn.block {
+  width: 100%;
+}
+
+/* ---- chip ------------------------------------------------------ */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 8px 15px;
+  border-radius: var(--r-pill);
+  background: var(--surface);
+  color: var(--green-800);
+  box-shadow: inset 0 0 0 1.5px var(--line);
+  white-space: nowrap;
+  transition: all var(--t-fast);
+  cursor: pointer;
+}
+.chip:hover {
+  box-shadow: inset 0 0 0 1.5px var(--green-300);
+}
+.chip.active {
+  background: var(--green-950);
+  color: var(--green-100);
+  box-shadow: none;
+}
+
+/* badge servizio (Prenota/Ordina/Chat) */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: var(--r-pill);
+  background: var(--teal-100);
+  color: var(--teal-700);
+}
+.badge.brass {
+  background: var(--brass-100);
+  color: var(--brass-700);
+}
+.badge.green {
+  background: var(--green-100);
+  color: var(--green-700);
+}
+.badge.gray {
+  background: #eef2f0;
+  color: var(--muted);
+}
+
+/* ---- card ------------------------------------------------------ */
+.card {
+  background: var(--surface);
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+/* ---- sezioni ---------------------------------------------------- */
+.section {
+  margin-top: 30px;
+}
+.section-head {
+  max-width: var(--maxw);
+  margin: 0 auto 12px;
+  padding: 0 var(--gutter);
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+.section-head h2 {
+  font-size: 1.25rem;
+  margin-top: 2px;
+}
+.section-head .see-all {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--teal-600);
+  white-space: nowrap;
+}
+.section-head .see-all:hover {
+  color: var(--teal-700);
+}
+
+/* ---- coupon (elemento firma) ------------------------------------ */
+.coupon {
+  background: var(--surface);
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  transition: box-shadow var(--t-med), transform var(--t-med);
+}
+.coupon:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+.coupon-media {
+  position: relative;
+  aspect-ratio: 16 / 8.5;
+  background: var(--green-100);
+}
+.coupon-media img,
+.coupon-media > div {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.coupon-discount {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: var(--green-950);
+  color: var(--teal-300);
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 5px 11px;
+  border-radius: var(--r-pill);
+}
+.coupon-body {
+  padding: 12px 14px 10px;
+  flex: 1;
+}
+.coupon-merchant {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+}
+.coupon-body h3 {
+  font-size: 0.98rem;
+  margin-top: 3px;
+  line-height: 1.25;
+}
+.coupon-valid {
+  margin-top: 5px;
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+
+/* tagliando: bordo tratteggiato + fori laterali */
+.coupon-stub {
+  border-top: 2px dashed var(--line);
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  position: relative;
+}
+.coupon-stub::before,
+.coupon-stub::after {
+  content: '';
+  position: absolute;
+  top: -9px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--paper);
+  box-shadow: inset -1px 0 2px rgba(12, 26, 23, 0.06);
+}
+.coupon-stub::before {
+  left: -9px;
+}
+.coupon-stub::after {
+  right: -9px;
+}
+.coupon-stub .eyebrow {
+  color: var(--muted);
+  font-size: 0.6rem;
+}
+.code-reveal {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+  color: var(--green-950);
+  background: var(--green-100);
+  border-radius: var(--r-sm);
+  padding: 7px 13px;
+  transition: background var(--t-fast);
+}
+.code-reveal.hidden-code {
+  background: var(--green-950);
+  color: var(--teal-300);
+  cursor: pointer;
+  letter-spacing: 0.06em;
+}
+.code-reveal.hidden-code:hover {
+  background: var(--green-800);
+}
+
+/* ---- card esercente --------------------------------------------- */
+.merchant-card {
+  display: flex;
+  gap: 12px;
+  background: var(--surface);
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-sm);
+  padding: 10px;
+  transition: box-shadow var(--t-med), transform var(--t-med);
+}
+.merchant-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+.merchant-card .thumb {
+  width: 92px;
+  height: 92px;
+  border-radius: var(--r-sm);
+  overflow: hidden;
+  flex-shrink: 0;
+  background: var(--green-100);
+}
+.merchant-card .thumb img,
+.merchant-card .thumb > div {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.merchant-card h3 {
+  font-size: 1rem;
+  line-height: 1.2;
+}
+.merchant-card .meta {
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-top: 2px;
+}
+.merchant-card .badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 7px;
+}
+
+.open-dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin-right: 4px;
+  background: var(--teal-500);
+  vertical-align: 1px;
+}
+.open-dot.closed {
+  background: var(--danger);
+}
+
+/* ---- post feed ---------------------------------------------------- */
+.post-card {
+  background: var(--surface);
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+.post-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 14px;
+}
+.post-head .who strong {
+  display: block;
+  font-size: 0.88rem;
+  line-height: 1.2;
+}
+.post-head .who span {
+  font-size: 0.7rem;
+  color: var(--muted);
+}
+.post-media {
+  aspect-ratio: 4 / 3;
+  background: var(--green-100);
+}
+.post-media img,
+.post-media > div {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.post-text {
+  padding: 12px 14px 14px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.avatar {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.8rem;
+  flex-shrink: 0;
+  letter-spacing: 0.02em;
+}
+
+/* ---- form ----------------------------------------------------------- */
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 14px;
+}
+.field label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--green-800);
+}
+.field input,
+.field select,
+.field textarea {
+  border: 1.5px solid var(--line);
+  border-radius: var(--r-sm);
+  padding: 10px 12px;
+  font-size: 0.92rem;
+  background: var(--surface);
+  transition: border-color var(--t-fast);
+}
+.field input:focus,
+.field select:focus,
+.field textarea:focus {
+  outline: none;
+  border-color: var(--teal-500);
+  box-shadow: var(--ring);
+}
+.field textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+/* ---- modale / sheet -------------------------------------------------- */
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  background: rgba(5, 31, 32, 0.55);
+  backdrop-filter: blur(3px);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  animation: fadeIn 180ms ease;
+}
+.sheet {
+  background: var(--paper);
+  border-radius: var(--r-lg) var(--r-lg) 0 0;
+  width: 100%;
+  max-width: 560px;
+  max-height: 88dvh;
+  overflow-y: auto;
+  padding: 22px 20px calc(20px + env(safe-area-inset-bottom));
+  animation: slideUp 240ms cubic-bezier(0.3, 1, 0.4, 1);
+}
+@media (min-width: 880px) {
+  .overlay {
+    align-items: center;
+    padding: 24px;
+  }
+  .sheet {
+    border-radius: var(--r-lg);
+    animation: popIn 200ms cubic-bezier(0.3, 1.4, 0.6, 1);
+  }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+}
+@keyframes slideUp {
+  from { transform: translateY(40px); opacity: 0.5; }
+}
+@keyframes popIn {
+  from { transform: scale(0.96); opacity: 0; }
+}
+
+.sheet-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.sheet-title h3 {
+  font-size: 1.15rem;
+}
+
+/* ---- vuoti / stati ---------------------------------------------------- */
+.empty {
+  text-align: center;
+  color: var(--muted);
+  padding: 42px 20px;
+  font-size: 0.9rem;
+}
+.empty .big {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
