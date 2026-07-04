@@ -1,0 +1,93 @@
+- generic [ref=f22e659]:
+  - banner [ref=f22e660]:
+    - generic [ref=f22e661]:
+      - img [ref=f22e662]
+      - generic [ref=f22e666]: PL
+      - generic [ref=f22e667]:
+        - text: Area esercente
+        - strong [ref=f22e668]: Pizzeria La Torre
+      - link "Pagina pubblica" [ref=f22e669] [cursor=pointer]:
+        - /url: "#/esercente/pizzeria-la-torre"
+        - img [ref=f22e670]
+      - button "Esci" [ref=f22e674] [cursor=pointer]:
+        - img [ref=f22e675]
+    - navigation [ref=f22e678]:
+      - link "Dashboard" [ref=f22e679] [cursor=pointer]:
+        - /url: "#/area-esercente"
+      - link "Vetrina" [ref=f22e680] [cursor=pointer]:
+        - /url: "#/area-esercente/vetrina"
+      - link "Offerte" [ref=f22e681] [cursor=pointer]:
+        - /url: "#/area-esercente/offerte"
+      - link "Post" [ref=f22e682] [cursor=pointer]:
+        - /url: "#/area-esercente/post"
+      - link "Prenotazioni 2" [ref=f22e683] [cursor=pointer]:
+        - /url: "#/area-esercente/prenotazioni"
+        - text: Prenotazioni
+        - generic [ref=f22e684]: "2"
+      - link "Ordini" [ref=f22e685] [cursor=pointer]:
+        - /url: "#/area-esercente/ordini"
+      - link "Chat" [ref=f22e686] [cursor=pointer]:
+        - /url: "#/area-esercente/chat"
+      - link "Strumenti" [ref=f22e687] [cursor=pointer]:
+        - /url: "#/area-esercente/strumenti"
+      - link "Abbonamento & plugin" [ref=f22e688] [cursor=pointer]:
+        - /url: "#/area-esercente/abbonamento"
+  - main [ref=f22e689]:
+    - text: La tua giornata
+    - heading "Ciao, Pizzeria 👋" [level=1] [ref=f22e690]
+    - paragraph [ref=f22e691]: Ecco come sta andando la tua vetrina su HiCom.
+    - generic [ref=f22e692]:
+      - generic [ref=f22e693]: Visite oggi46alla tua pagina
+      - generic [ref=f22e694]:
+        - text: Offerte attive2
+        - link "gestisci →" [ref=f22e695] [cursor=pointer]:
+          - /url: "#/offerte"
+      - generic [ref=f22e696]:
+        - text: Prenotazioni oggi2
+        - link "agenda →" [ref=f22e697] [cursor=pointer]:
+          - /url: "#/prenotazioni"
+      - generic [ref=f22e698]:
+        - text: Ordini in coda0
+        - link "prepara →" [ref=f22e699] [cursor=pointer]:
+          - /url: "#/ordini"
+      - generic [ref=f22e700]:
+        - text: Messaggi non letti0
+        - link "rispondi →" [ref=f22e701] [cursor=pointer]:
+          - /url: "#/chat"
+      - generic [ref=f22e702]:
+        - text: Canone mensile
+        - generic [ref=f22e703]: €22
+        - link "dettagli →" [ref=f22e704] [cursor=pointer]:
+          - /url: "#/abbonamento"
+    - generic [ref=f22e705]:
+      - heading "Azioni rapide" [level=2] [ref=f22e707]
+      - generic [ref=f22e708]:
+        - link "+ Nuova offerta" [ref=f22e709] [cursor=pointer]:
+          - /url: "#/offerte?nuova=1"
+        - link "+ Nuovo post" [ref=f22e710] [cursor=pointer]:
+          - /url: "#/post?nuovo=1"
+        - link "Modifica vetrina" [ref=f22e711] [cursor=pointer]:
+          - /url: "#/vetrina"
+        - link "Vedi la pagina pubblica" [ref=f22e712] [cursor=pointer]:
+          - /url: "#/esercente/pizzeria-la-torre"
+    - generic [ref=f22e713]:
+      - generic [ref=f22e714]:
+        - heading "Prenotazioni di oggi" [level=2] [ref=f22e715]
+        - link "Tutte →" [ref=f22e716] [cursor=pointer]:
+          - /url: "#/prenotazioni"
+      - generic [ref=f22e717]:
+        - generic [ref=f22e718]:
+          - text: 20:00
+          - generic [ref=f22e719]: 4 pers.
+        - generic [ref=f22e720]:
+          - heading "Franco Ghirardi" [level=3] [ref=f22e721]
+          - paragraph [ref=f22e722]: TAV-4821
+        - generic [ref=f22e723]: Confermata
+      - generic [ref=f22e724]:
+        - generic [ref=f22e725]:
+          - text: 20:30
+          - generic [ref=f22e726]: 2 pers.
+        - generic [ref=f22e727]:
+          - heading "Elisa Martini" [level=3] [ref=f22e728]
+          - paragraph [ref=f22e729]: TAV-4822
+        - generic [ref=f22e730]: In attesa

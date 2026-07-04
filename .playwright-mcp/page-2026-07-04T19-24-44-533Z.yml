@@ -1,0 +1,116 @@
+- generic [ref=f22e659]:
+  - banner [ref=f22e660]:
+    - generic [ref=f22e661]:
+      - img [ref=f22e662]
+      - generic [ref=f22e666]: PL
+      - generic [ref=f22e667]:
+        - text: Area esercente
+        - strong [ref=f22e668]: Pizzeria La Torre
+      - link "Pagina pubblica" [ref=f22e669] [cursor=pointer]:
+        - /url: "#/esercente/pizzeria-la-torre"
+        - img [ref=f22e670]
+      - button "Esci" [ref=f22e674] [cursor=pointer]:
+        - img [ref=f22e675]
+    - navigation [ref=f22e678]:
+      - link "Dashboard" [ref=f22e679] [cursor=pointer]:
+        - /url: "#/area-esercente"
+      - link "Vetrina" [ref=f22e680] [cursor=pointer]:
+        - /url: "#/area-esercente/vetrina"
+      - link "Offerte" [ref=f22e681] [cursor=pointer]:
+        - /url: "#/area-esercente/offerte"
+      - link "Post" [ref=f22e682] [cursor=pointer]:
+        - /url: "#/area-esercente/post"
+      - link "Prenotazioni 1" [ref=f22e770] [cursor=pointer]:
+        - /url: "#/area-esercente/prenotazioni"
+        - text: Prenotazioni
+        - generic [ref=f22e684]: "1"
+      - link "Ordini" [ref=f22e685] [cursor=pointer]:
+        - /url: "#/area-esercente/ordini"
+      - link "Chat" [ref=f22e686] [cursor=pointer]:
+        - /url: "#/area-esercente/chat"
+      - link "Strumenti" [ref=f22e687] [cursor=pointer]:
+        - /url: "#/area-esercente/strumenti"
+      - link "Abbonamento & plugin" [ref=f22e688] [cursor=pointer]:
+        - /url: "#/area-esercente/abbonamento"
+  - main [ref=f22e689]:
+    - text: Il tuo piano HiCom
+    - heading "Abbonamento & plugin" [level=1] [ref=f22e772]
+    - paragraph [ref=f22e773]: "Attivi e disattivi quando vuoi: le funzioni si sbloccano subito nel pannello."
+    - generic [ref=f22e774]:
+      - text: Il tuo canone mensile
+      - generic [ref=f22e775]:
+        - generic [ref=f22e776]:
+          - generic [ref=f22e777]: Canone base — vetrina, offerte, post, hosting e assistenza
+          - strong [ref=f22e778]: €12
+        - generic [ref=f22e779]:
+          - generic [ref=f22e780]: Bundle settore (Prenotazioni + Ordini + Chat)
+          - strong [ref=f22e781]: +€10
+      - generic [ref=f22e782]:
+        - generic [ref=f22e783]: Totale al mese
+        - generic [ref=f22e784]: €22
+      - paragraph [ref=f22e785]: "✓ Bundle settore applicato automaticamente: risparmi €5 al mese rispetto ai plugin singoli."
+    - generic [ref=f22e786]:
+      - heading "Moduli di settore · plugin" [level=2] [ref=f22e788]
+      - generic [ref=f22e789]:
+        - generic [ref=f22e790]:
+          - heading "Prenotazioni +€6/mese Attivo" [level=3] [ref=f22e791]:
+            - text: Prenotazioni
+            - generic [ref=f22e792]: +€6/mese
+            - generic [ref=f22e793]: Attivo
+          - paragraph [ref=f22e794]: Tavoli e appuntamenti prenotabili dai cittadini, con agenda nel pannello.
+        - switch "Prenotazioni attivo" [checked] [ref=f22e795] [cursor=pointer]
+      - generic [ref=f22e796]:
+        - generic [ref=f22e797]:
+          - heading "Ritiri & Ordini +€5/mese Attivo" [level=3] [ref=f22e798]:
+            - text: Ritiri & Ordini
+            - generic [ref=f22e799]: +€5/mese
+            - generic [ref=f22e800]: Attivo
+          - paragraph [ref=f22e801]: I clienti ordinano in anticipo e ritirano in negozio senza coda.
+        - switch "Ritiri & Ordini attivo" [checked] [ref=f22e802] [cursor=pointer]
+      - generic [ref=f22e803]:
+        - generic [ref=f22e804]:
+          - heading "Chat cliente +€4/mese Attivo" [level=3] [ref=f22e805]:
+            - text: Chat cliente
+            - generic [ref=f22e806]: +€4/mese
+            - generic [ref=f22e807]: Attivo
+          - paragraph [ref=f22e808]: Canale diretto con i clienti, dentro HiCom.
+        - switch "Chat cliente attivo" [checked] [ref=f22e809] [cursor=pointer]
+      - generic [ref=f22e810]:
+        - generic [ref=f22e811]:
+          - heading "Vetrina+ +€3/mese" [level=3] [ref=f22e812]:
+            - text: Vetrina+
+            - generic [ref=f22e813]: +€3/mese
+          - paragraph [ref=f22e814]: Galleria foto estesa e prodotti in evidenza nella tua pagina.
+        - switch "Vetrina+ non attivo" [ref=f22e815] [cursor=pointer]
+      - paragraph [ref=f22e816]:
+        - text: 💡 Attivando insieme Prenotazioni, Ritiri & Ordini e Chat si applica il
+        - strong [ref=f22e817]: Bundle settore a €10/mese
+        - text: invece di €15.
+    - generic [ref=f22e818]:
+      - heading "Vetrina Curata — ci occupiamo noi dei contenuti" [level=2] [ref=f22e820]
+      - generic [ref=f22e821]:
+        - button "Base — fai da te Incluso Gestisci tutto in autonomia Piattaforma completa" [ref=f22e822] [cursor=pointer]:
+          - heading "Base — fai da te" [level=3] [ref=f22e823]
+          - generic [ref=f22e824]: Incluso
+          - list [ref=f22e825]:
+            - listitem [ref=f22e826]: Gestisci tutto in autonomia
+            - listitem [ref=f22e827]: Piattaforma completa
+        - button "Vetrina Curata · Plus +€30/mese Servizio fotografico periodico Caricamento prodotti e offerte Cura ordinaria della pagina" [ref=f22e828] [cursor=pointer]:
+          - heading "Vetrina Curata · Plus" [level=3] [ref=f22e829]
+          - generic [ref=f22e830]: +€30/mese
+          - list [ref=f22e831]:
+            - listitem [ref=f22e832]: Servizio fotografico periodico
+            - listitem [ref=f22e833]: Caricamento prodotti e offerte
+            - listitem [ref=f22e834]: Cura ordinaria della pagina
+        - button "Vetrina Curata · Pro +€80/mese Tutto il Plus Gestione pagine social Campagne sponsorizzate" [ref=f22e835] [cursor=pointer]:
+          - heading "Vetrina Curata · Pro" [level=3] [ref=f22e836]
+          - generic [ref=f22e837]: +€80/mese
+          - list [ref=f22e838]:
+            - listitem [ref=f22e839]: Tutto il Plus
+            - listitem [ref=f22e840]: Gestione pagine social
+            - listitem [ref=f22e841]: Campagne sponsorizzate
+    - generic [ref=f22e842]:
+      - heading "Officina Digitale · strumenti su misura" [level=2] [ref=f22e844]
+      - paragraph [ref=f22e845]: "Magazzino, incassi, clienti, statistiche: piccoli strumenti gestionali costruiti sulla tua attività, a tariffe agevolate per la rete HiCom."
+      - link "Scopri i tuoi strumenti" [ref=f22e846] [cursor=pointer]:
+        - /url: "#/area-esercente/strumenti"

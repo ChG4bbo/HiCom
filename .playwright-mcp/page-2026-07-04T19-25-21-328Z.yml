@@ -1,0 +1,115 @@
+- generic [ref=f22e931]:
+  - banner [ref=f22e932]:
+    - generic [ref=f22e933]:
+      - img [ref=f22e934]
+      - generic [ref=f22e938]: FB
+      - generic [ref=f22e939]:
+        - text: Area esercente
+        - strong [ref=f22e940]: Ferramenta Beltramo
+      - link "Pagina pubblica" [ref=f22e941] [cursor=pointer]:
+        - /url: "#/esercente/ferramenta-beltramo"
+        - img [ref=f22e942]
+      - button "Esci" [ref=f22e946] [cursor=pointer]:
+        - img [ref=f22e947]
+    - navigation [ref=f22e950]:
+      - link "Dashboard" [ref=f22e951] [cursor=pointer]:
+        - /url: "#/area-esercente"
+      - link "Vetrina" [ref=f22e952] [cursor=pointer]:
+        - /url: "#/area-esercente/vetrina"
+      - link "Offerte" [ref=f22e953] [cursor=pointer]:
+        - /url: "#/area-esercente/offerte"
+      - link "Post" [ref=f22e954] [cursor=pointer]:
+        - /url: "#/area-esercente/post"
+      - link "Strumenti" [ref=f22e955] [cursor=pointer]:
+        - /url: "#/area-esercente/strumenti"
+      - link "Abbonamento & plugin" [ref=f22e956] [cursor=pointer]:
+        - /url: "#/area-esercente/abbonamento"
+  - main [ref=f22e957]:
+    - text: Officina Digitale · su misura per te
+    - heading "I tuoi strumenti" [level=1] [ref=f22e981]
+    - paragraph [ref=f22e982]: Piccoli gestionali costruiti sulla singola attività, oltre il canone base.
+    - button "📦 Gestore magazzino" [ref=f22e984] [cursor=pointer]
+    - generic [ref=f22e985]:
+      - heading "📦 Gestore magazzino" [level=2] [ref=f22e987]
+      - generic [ref=f22e988]: ⚠️ 3 articoli sotto la soglia di riordino.
+      - generic [ref=f22e989]:
+        - generic [ref=f22e990]:
+          - heading "Trapano avvitatore 18V" [level=3] [ref=f22e991]
+          - paragraph [ref=f22e992]: UT-1804 · soglia minima 3
+        - generic [ref=f22e993]: OK
+        - generic [ref=f22e994]:
+          - button "Scarica" [ref=f22e995] [cursor=pointer]: −
+          - generic [ref=f22e996]: "6"
+          - button "Carica" [ref=f22e997] [cursor=pointer]: +
+      - generic [ref=f22e998]:
+        - generic [ref=f22e999]:
+          - heading "Scala alluminio 6 gradini" [level=3] [ref=f22e1000]
+          - paragraph [ref=f22e1001]: SC-0614 · soglia minima 3
+        - generic [ref=f22e1002]: Scorta bassa
+        - generic [ref=f22e1003]:
+          - button "Scarica" [ref=f22e1004] [cursor=pointer]: −
+          - generic [ref=f22e1005]: "2"
+          - button "Carica" [ref=f22e1006] [cursor=pointer]: +
+      - generic [ref=f22e1007]:
+        - generic [ref=f22e1008]:
+          - heading "Cassetta attrezzi 108 pz" [level=3] [ref=f22e1009]
+          - paragraph [ref=f22e1010]: CA-1080 · soglia minima 4
+        - generic [ref=f22e1011]: OK
+        - generic [ref=f22e1012]:
+          - button "Scarica" [ref=f22e1013] [cursor=pointer]: −
+          - generic [ref=f22e1014]: "11"
+          - button "Carica" [ref=f22e1015] [cursor=pointer]: +
+      - generic [ref=f22e1016]:
+        - generic [ref=f22e1017]:
+          - heading "Idropittura lavabile 10L bianco" [level=3] [ref=f22e1018]
+          - paragraph [ref=f22e1019]: VE-1010 · soglia minima 5
+        - generic [ref=f22e1020]: Scorta bassa
+        - generic [ref=f22e1021]:
+          - button "Scarica" [ref=f22e1022] [cursor=pointer]: −
+          - generic [ref=f22e1023]: "1"
+          - button "Carica" [ref=f22e1024] [cursor=pointer]: +
+      - generic [ref=f22e1025]:
+        - generic [ref=f22e1026]:
+          - heading "Chiavi grezze (assortite)" [level=3] [ref=f22e1027]
+          - paragraph [ref=f22e1028]: CH-0001 · soglia minima 80
+        - generic [ref=f22e1029]: OK
+        - generic [ref=f22e1030]:
+          - button "Scarica" [ref=f22e1031] [cursor=pointer]: −
+          - generic [ref=f22e1032]: "240"
+          - button "Carica" [ref=f22e1033] [cursor=pointer]: +
+      - generic [ref=f22e1034]:
+        - generic [ref=f22e1035]:
+          - heading "Terriccio universale 45L" [level=3] [ref=f22e1036]
+          - paragraph [ref=f22e1037]: GA-4501 · soglia minima 10
+        - generic [ref=f22e1038]: OK
+        - generic [ref=f22e1039]:
+          - button "Scarica" [ref=f22e1040] [cursor=pointer]: −
+          - generic [ref=f22e1041]: "18"
+          - button "Carica" [ref=f22e1042] [cursor=pointer]: +
+      - generic [ref=f22e1043]:
+        - generic [ref=f22e1044]:
+          - heading "Guanti da lavoro tg. 9" [level=3] [ref=f22e1045]
+          - paragraph [ref=f22e1046]: GU-0900 · soglia minima 6
+        - generic [ref=f22e1047]: Scorta bassa
+        - generic [ref=f22e1048]:
+          - button "Scarica" [ref=f22e1049] [cursor=pointer]: −
+          - generic [ref=f22e1050]: "4"
+          - button "Carica" [ref=f22e1051] [cursor=pointer]: +
+    - generic [ref=f22e1052]:
+      - heading "Disponibili su richiesta" [level=2] [ref=f22e1054]
+      - generic [ref=f22e1056]:
+        - heading "🧾 Registro incassi Su misura" [level=3] [ref=f22e1057]:
+          - text: 🧾 Registro incassi
+          - generic [ref=f22e1058]: Su misura
+        - paragraph [ref=f22e1059]: Entrate giornaliere e andamento settimanale, senza fogli di calcolo.
+      - generic [ref=f22e1061]:
+        - heading "👥 Mini-CRM clienti Su misura" [level=3] [ref=f22e1062]:
+          - text: 👥 Mini-CRM clienti
+          - generic [ref=f22e1063]: Su misura
+        - paragraph [ref=f22e1064]: Rubrica clienti con storico appuntamenti e note.
+      - generic [ref=f22e1066]:
+        - heading "📈 Statistiche vetrina Su misura" [level=3] [ref=f22e1067]:
+          - text: 📈 Statistiche vetrina
+          - generic [ref=f22e1068]: Su misura
+        - paragraph [ref=f22e1069]: Visite alla pagina, click sulle offerte e andamento settimanale.
+      - paragraph [ref=f22e1070]: Gli strumenti dell'Officina Digitale si progettano insieme, a tariffe agevolate per la rete HiCom. Parlane con il tuo referente.

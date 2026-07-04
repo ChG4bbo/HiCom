@@ -1,0 +1,56 @@
+- generic [ref=f22e931]:
+  - banner [ref=f22e932]:
+    - generic [ref=f22e933]:
+      - img [ref=f22e934]
+      - generic [ref=f22e938]: FB
+      - generic [ref=f22e939]:
+        - text: Area esercente
+        - strong [ref=f22e940]: Ferramenta Beltramo
+      - link "Pagina pubblica" [ref=f22e941] [cursor=pointer]:
+        - /url: "#/esercente/ferramenta-beltramo"
+        - img [ref=f22e942]
+      - button "Esci" [ref=f22e946] [cursor=pointer]:
+        - img [ref=f22e947]
+    - navigation [ref=f22e950]:
+      - link "Dashboard" [ref=f22e951] [cursor=pointer]:
+        - /url: "#/area-esercente"
+      - link "Vetrina" [ref=f22e952] [cursor=pointer]:
+        - /url: "#/area-esercente/vetrina"
+      - link "Offerte" [ref=f22e953] [cursor=pointer]:
+        - /url: "#/area-esercente/offerte"
+      - link "Post" [ref=f22e954] [cursor=pointer]:
+        - /url: "#/area-esercente/post"
+      - link "Strumenti" [ref=f22e955] [cursor=pointer]:
+        - /url: "#/area-esercente/strumenti"
+      - link "Abbonamento & plugin" [ref=f22e956] [cursor=pointer]:
+        - /url: "#/area-esercente/abbonamento"
+  - main [ref=f22e957]:
+    - text: La tua giornata
+    - heading "Ciao, Ferramenta Beltramo 👋" [level=1] [ref=f22e958]
+    - paragraph [ref=f22e959]: Ecco come sta andando la tua vetrina su HiCom.
+    - generic [ref=f22e960]:
+      - generic [ref=f22e961]:
+        - generic [ref=f22e962]: Visite oggi
+        - generic [ref=f22e963]: "52"
+        - generic [ref=f22e964]: alla tua pagina
+      - generic [ref=f22e965]:
+        - generic [ref=f22e966]: Offerte attive
+        - generic [ref=f22e967]: "1"
+        - link "gestisci →" [ref=f22e968] [cursor=pointer]:
+          - /url: "#/offerte"
+      - generic [ref=f22e969]:
+        - generic [ref=f22e970]: Canone mensile
+        - generic [ref=f22e971]: €12
+        - link "dettagli →" [ref=f22e972] [cursor=pointer]:
+          - /url: "#/abbonamento"
+    - generic [ref=f22e973]:
+      - heading "Azioni rapide" [level=2] [ref=f22e975]
+      - generic [ref=f22e976]:
+        - link "+ Nuova offerta" [ref=f22e977] [cursor=pointer]:
+          - /url: "#/offerte?nuova=1"
+        - link "+ Nuovo post" [ref=f22e978] [cursor=pointer]:
+          - /url: "#/post?nuovo=1"
+        - link "Modifica vetrina" [ref=f22e979] [cursor=pointer]:
+          - /url: "#/vetrina"
+        - link "Vedi la pagina pubblica" [ref=f22e980] [cursor=pointer]:
+          - /url: "#/esercente/ferramenta-beltramo"

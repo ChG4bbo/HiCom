@@ -1,0 +1,29 @@
+[  155832ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5174/src/pages/merchant/Abbonamento.jsx?t=1783192576721:0
+[  155833ms] [ERROR] [hmr] Failed to reload /src/pages/merchant/Abbonamento.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5174/@vite/client:175
+[  155833ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5174/src/pages/merchant/ChatMerchant.jsx?t=1783192576722:0
+[  155833ms] [ERROR] [hmr] Failed to reload /src/pages/merchant/ChatMerchant.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5174/@vite/client:175
+[  155834ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5174/src/pages/merchant/Dashboard.jsx?t=1783192576722:0
+[  155834ms] [ERROR] [hmr] Failed to reload /src/pages/merchant/Dashboard.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5174/@vite/client:175
+[  155835ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5174/src/pages/merchant/Login.jsx?t=1783192576722:0
+[  155835ms] [ERROR] [hmr] Failed to reload /src/pages/merchant/Login.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5174/@vite/client:175
+[  155836ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5174/src/pages/merchant/MerchantLayout.jsx?t=1783192576722:0
+[  155836ms] [ERROR] [hmr] Failed to reload /src/pages/merchant/MerchantLayout.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5174/@vite/client:175
+[  155837ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5174/src/pages/merchant/OfferteMerchant.jsx?t=1783192576722:0
+[  155837ms] [ERROR] [hmr] Failed to reload /src/pages/merchant/OfferteMerchant.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5174/@vite/client:175
+[  155840ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5174/src/pages/merchant/Ordini.jsx?t=1783192576722:0
+[  155840ms] [ERROR] [hmr] Failed to reload /src/pages/merchant/Ordini.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5174/@vite/client:175
+[  155841ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5174/src/pages/merchant/Posts.jsx?t=1783192576722:0
+[  155841ms] [ERROR] [hmr] Failed to reload /src/pages/merchant/Posts.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5174/@vite/client:175
+[  155841ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5174/src/pages/merchant/Prenotazioni.jsx?t=1783192576722:0
+[  155842ms] [ERROR] [hmr] Failed to reload /src/pages/merchant/Prenotazioni.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5174/@vite/client:175
+[  155843ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5174/src/pages/merchant/Strumenti.jsx?t=1783192576722:0
+[  155843ms] [ERROR] [hmr] Failed to reload /src/pages/merchant/Strumenti.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5174/@vite/client:175
+[  155843ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5174/src/pages/merchant/Vetrina.jsx?t=1783192576723:0
+[  155844ms] [ERROR] [hmr] Failed to reload /src/pages/merchant/Vetrina.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5174/@vite/client:175
+[  155844ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5174/src/pages/admin/Admin.jsx?t=1783192576723:0
+[  155844ms] [ERROR] [hmr] Failed to reload /src/pages/admin/Admin.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5174/@vite/client:175
+[  284644ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5174/src/pages/merchant/OfferteMerchant.jsx?t=1783192705515:0
+[  284645ms] [ERROR] [hmr] Failed to reload /src/pages/merchant/OfferteMerchant.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5174/@vite/client:175
+[  284704ms] [ERROR] [hmr] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5174/@vite/client:175
+[  284804ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5174/src/pages/merchant/OfferteMerchant.jsx?t=1783192705591:0
+[  286671ms] [ERROR] [hmr] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5174/@vite/client:175

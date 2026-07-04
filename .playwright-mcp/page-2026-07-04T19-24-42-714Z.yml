@@ -1,0 +1,59 @@
+- generic [ref=f22e659]:
+  - banner [ref=f22e660]:
+    - generic [ref=f22e661]:
+      - img [ref=f22e662]
+      - generic [ref=f22e666]: PL
+      - generic [ref=f22e667]:
+        - text: Area esercente
+        - strong [ref=f22e668]: Pizzeria La Torre
+      - link "Pagina pubblica" [ref=f22e669] [cursor=pointer]:
+        - /url: "#/esercente/pizzeria-la-torre"
+        - img [ref=f22e670]
+      - button "Esci" [ref=f22e674] [cursor=pointer]:
+        - img [ref=f22e675]
+    - navigation [ref=f22e678]:
+      - link "Dashboard" [ref=f22e679] [cursor=pointer]:
+        - /url: "#/area-esercente"
+      - link "Vetrina" [ref=f22e680] [cursor=pointer]:
+        - /url: "#/area-esercente/vetrina"
+      - link "Offerte" [ref=f22e681] [cursor=pointer]:
+        - /url: "#/area-esercente/offerte"
+      - link "Post" [ref=f22e682] [cursor=pointer]:
+        - /url: "#/area-esercente/post"
+      - link "Prenotazioni 1" [ref=f22e770] [cursor=pointer]:
+        - /url: "#/area-esercente/prenotazioni"
+        - text: Prenotazioni
+        - generic [ref=f22e684]: "1"
+      - link "Ordini" [ref=f22e685] [cursor=pointer]:
+        - /url: "#/area-esercente/ordini"
+      - link "Chat" [ref=f22e686] [cursor=pointer]:
+        - /url: "#/area-esercente/chat"
+      - link "Strumenti" [ref=f22e687] [cursor=pointer]:
+        - /url: "#/area-esercente/strumenti"
+      - link "Abbonamento & plugin" [ref=f22e688] [cursor=pointer]:
+        - /url: "#/area-esercente/abbonamento"
+  - main [ref=f22e689]:
+    - text: Plugin Prenotazioni · +€6/mese
+    - heading "Prenotazioni tavoli" [level=1] [ref=f22e731]
+    - paragraph [ref=f22e732]: Le richieste dei cittadini arrivano qui in tempo reale.
+    - generic [ref=f22e733]:
+      - button "In attesa 1" [ref=f22e771] [cursor=pointer]:
+        - text: In attesa
+        - generic [ref=f22e735]: "1"
+      - button "Confermate" [ref=f22e736] [cursor=pointer]
+      - button "Tutte" [ref=f22e737] [cursor=pointer]
+    - generic [ref=f22e738]:
+      - heading "Oggi" [level=2] [ref=f22e740]
+      - generic [ref=f22e741]:
+        - generic [ref=f22e742]:
+          - text: 20:30
+          - generic [ref=f22e743]: 2 pers.
+        - generic [ref=f22e744]:
+          - heading "Elisa Martini" [level=3] [ref=f22e745]
+          - paragraph [ref=f22e746]: TAV-4822 · 347 8811223
+        - generic [ref=f22e747]:
+          - button "Conferma" [ref=f22e748] [cursor=pointer]:
+            - img [ref=f22e749]
+            - text: Conferma
+          - button "Rifiuta" [ref=f22e751] [cursor=pointer]:
+            - img [ref=f22e752]

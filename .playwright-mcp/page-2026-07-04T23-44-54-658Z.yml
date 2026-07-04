@@ -1,0 +1,581 @@
+- generic [ref=f25e3]:
+  - banner [ref=f25e4]:
+    - generic [ref=f25e5]:
+      - link "HiCom — home" [ref=f25e6] [cursor=pointer]:
+        - /url: "#/"
+        - generic [ref=f25e7]:
+          - img [ref=f25e8]
+          - generic [ref=f25e12]: HiCom
+      - navigation [ref=f25e13]:
+        - link "Home" [ref=f25e14] [cursor=pointer]:
+          - /url: "#/"
+        - link "Esplora" [ref=f25e15] [cursor=pointer]:
+          - /url: "#/esplora"
+        - link "Offerte" [ref=f25e16] [cursor=pointer]:
+          - /url: "#/offerte"
+        - link "Chat" [ref=f25e17] [cursor=pointer]:
+          - /url: "#/chat"
+      - generic [ref=f25e18]:
+        - img [ref=f25e19]
+        - text: ORBASSANO
+      - link "Area esercente" [ref=f25e22] [cursor=pointer]:
+        - /url: "#/login"
+        - img [ref=f25e23]
+        - text: Area esercente
+  - main [ref=f25e27]:
+    - generic [ref=f25e28]:
+      - generic [ref=f25e29]:
+        - text: Orbassano · la rete del commercio locale
+        - heading "Cosa offre il paese, oggi" [level=1] [ref=f25e30]
+      - generic [ref=f25e31]:
+        - generic [ref=f25e33]:
+          - text: La rete del commercio locale
+          - heading "Il paese, nel tuo telefono" [level=2] [ref=f25e34]
+          - paragraph [ref=f25e35]: Vetrine, offerte ed eventi di Orbassano in un unico posto.
+          - button "Scopri gli esercenti" [ref=f25e36] [cursor=pointer]
+        - generic [ref=f25e38]:
+          - text: Evento · Comune di Orbassano
+          - heading "Festa di Primavera in piazza" [level=2] [ref=f25e39]
+          - paragraph [ref=f25e40]: "Domenica: mercatino, degustazioni e negozi aperti tutto il giorno."
+          - button "Vedi le offerte" [ref=f25e41] [cursor=pointer]
+        - generic [ref=f25e43]:
+          - text: Offerta in evidenza
+          - 'heading "Martedì pizza: Margherita a €5" [level=2] [ref=f25e44]'
+          - paragraph [ref=f25e45]: Da Pizzeria La Torre, in piazza. Al tavolo e da asporto.
+          - button "Vai alla pizzeria" [ref=f25e46] [cursor=pointer]
+        - generic [ref=f25e48]:
+          - text: Novità dal territorio
+          - heading "La nuova collezione di Chiara Moda" [level=2] [ref=f25e49]
+          - paragraph [ref=f25e50]: Capi di piccoli brand italiani, scelti uno a uno. −15% sul primo acquisto.
+          - button "Scopri la vetrina" [ref=f25e51] [cursor=pointer]
+      - generic [ref=f25e52]:
+        - button "Slide 1" [ref=f25e53] [cursor=pointer]
+        - button "Slide 2" [ref=f25e54] [cursor=pointer]
+        - button "Slide 3" [ref=f25e55] [cursor=pointer]
+        - button "Slide 4" [ref=f25e56] [cursor=pointer]
+    - link "Cerca negozi, servizi, offerte…" [ref=f25e58] [cursor=pointer]:
+      - /url: "#/esplora"
+      - img [ref=f25e59]
+      - text: Cerca negozi, servizi, offerte…
+    - region "Categorie" [ref=f25e62]:
+      - generic [ref=f25e63]:
+        - link "🍕 Ristorazione" [ref=f25e64] [cursor=pointer]:
+          - /url: "#/esplora?cat=ristorazione"
+          - generic [ref=f25e65]: 🍕
+          - generic [ref=f25e66]: Ristorazione
+        - link "☕ Bar & Caffè" [ref=f25e67] [cursor=pointer]:
+          - /url: "#/esplora?cat=bar"
+          - generic [ref=f25e68]: ☕
+          - generic [ref=f25e69]: Bar & Caffè
+        - link "🥖 Alimentari" [ref=f25e70] [cursor=pointer]:
+          - /url: "#/esplora?cat=alimentari"
+          - generic [ref=f25e71]: 🥖
+          - generic [ref=f25e72]: Alimentari
+        - link "💈 Bellezza & Cura" [ref=f25e73] [cursor=pointer]:
+          - /url: "#/esplora?cat=bellezza"
+          - generic [ref=f25e74]: 💈
+          - generic [ref=f25e75]: Bellezza & Cura
+        - link "💊 Salute" [ref=f25e76] [cursor=pointer]:
+          - /url: "#/esplora?cat=salute"
+          - generic [ref=f25e77]: 💊
+          - generic [ref=f25e78]: Salute
+        - link "📐 Servizi & Studi" [ref=f25e79] [cursor=pointer]:
+          - /url: "#/esplora?cat=servizi"
+          - generic [ref=f25e80]: 📐
+          - generic [ref=f25e81]: Servizi & Studi
+        - link "🔧 Artigiani & Casa" [ref=f25e82] [cursor=pointer]:
+          - /url: "#/esplora?cat=artigiani"
+          - generic [ref=f25e83]: 🔧
+          - generic [ref=f25e84]: Artigiani & Casa
+        - link "🛍️ Negozi" [ref=f25e85] [cursor=pointer]:
+          - /url: "#/esplora?cat=negozi"
+          - generic [ref=f25e86]: 🛍️
+          - generic [ref=f25e87]: Negozi
+    - generic [ref=f25e88]:
+      - generic [ref=f25e89]:
+        - generic [ref=f25e90]:
+          - text: Da usare in cassa
+          - heading "Offerte del momento" [level=2] [ref=f25e91]
+        - link "Vedi tutto →" [ref=f25e92] [cursor=pointer]:
+          - /url: "#/offerte"
+      - generic [ref=f25e93]:
+        - article [ref=f25e94]:
+          - link "Panetteria del Borgo" [ref=f25e95] [cursor=pointer]:
+            - /url: "#/esercente/panetteria-del-borgo"
+            - generic [ref=f25e96]: −30%
+          - generic [ref=f25e97]:
+            - 'link "Panetteria del Borgo Dalle 17: −30% sul pane del giorno" [ref=f25e98] [cursor=pointer]':
+              - /url: "#/esercente/panetteria-del-borgo"
+              - text: Panetteria del Borgo
+              - 'heading "Dalle 17: −30% sul pane del giorno" [level=3] [ref=f25e99]'
+            - paragraph [ref=f25e100]: Valida fino a ven 24 lug
+          - generic [ref=f25e101]:
+            - generic [ref=f25e102]: Codice sconto
+            - button "Mostra codice" [ref=f25e103] [cursor=pointer]
+        - article [ref=f25e104]:
+          - link "Panetteria del Borgo" [ref=f25e105] [cursor=pointer]:
+            - /url: "#/esercente/panetteria-del-borgo"
+            - generic [ref=f25e106]: 3×2
+          - generic [ref=f25e107]:
+            - link "Panetteria del Borgo 3×2 sui grissini stirati" [ref=f25e108] [cursor=pointer]:
+              - /url: "#/esercente/panetteria-del-borgo"
+              - text: Panetteria del Borgo
+              - heading "3×2 sui grissini stirati" [level=3] [ref=f25e109]
+            - paragraph [ref=f25e110]: Valida fino a gio 16 lug
+          - generic [ref=f25e111]:
+            - generic [ref=f25e112]: Codice sconto
+            - button "Mostra codice" [ref=f25e113] [cursor=pointer]
+        - article [ref=f25e114]:
+          - link "Pizzeria La Torre" [ref=f25e115] [cursor=pointer]:
+            - /url: "#/esercente/pizzeria-la-torre"
+            - generic [ref=f25e116]: €5
+          - generic [ref=f25e117]:
+            - 'link "Pizzeria La Torre Martedì pizza: Margherita a €5" [ref=f25e118] [cursor=pointer]':
+              - /url: "#/esercente/pizzeria-la-torre"
+              - text: Pizzeria La Torre
+              - 'heading "Martedì pizza: Margherita a €5" [level=3] [ref=f25e119]'
+            - paragraph [ref=f25e120]: Valida fino a lun 3 ago
+          - generic [ref=f25e121]:
+            - generic [ref=f25e122]: Codice sconto
+            - button "Mostra codice" [ref=f25e123] [cursor=pointer]
+        - article [ref=f25e124]:
+          - link "Pizzeria La Torre" [ref=f25e125] [cursor=pointer]:
+            - /url: "#/esercente/pizzeria-la-torre"
+            - generic [ref=f25e126]: €28
+          - generic [ref=f25e127]:
+            - 'link "Pizzeria La Torre Menu famiglia: 2 pizze + 2 baby €28" [ref=f25e128] [cursor=pointer]':
+              - /url: "#/esercente/pizzeria-la-torre"
+              - text: Pizzeria La Torre
+              - 'heading "Menu famiglia: 2 pizze + 2 baby €28" [level=3] [ref=f25e129]'
+            - paragraph [ref=f25e130]: Valida fino a mer 22 lug
+          - generic [ref=f25e131]:
+            - generic [ref=f25e132]: Codice sconto
+            - button "Mostra codice" [ref=f25e133] [cursor=pointer]
+        - article [ref=f25e134]:
+          - link "Caffè Centrale" [ref=f25e135] [cursor=pointer]:
+            - /url: "#/esercente/caffe-centrale"
+            - generic [ref=f25e136]: €2.50
+          - generic [ref=f25e137]:
+            - link "Caffè Centrale Colazione completa €2.50 prima delle 9" [ref=f25e138] [cursor=pointer]:
+              - /url: "#/esercente/caffe-centrale"
+              - text: Caffè Centrale
+              - heading "Colazione completa €2.50 prima delle 9" [level=3] [ref=f25e139]
+            - paragraph [ref=f25e140]: Valida fino a mer 29 lug
+          - generic [ref=f25e141]:
+            - generic [ref=f25e142]: Codice sconto
+            - button "Mostra codice" [ref=f25e143] [cursor=pointer]
+        - article [ref=f25e144]:
+          - link "Studio Dentistico Sorriso" [ref=f25e145] [cursor=pointer]:
+            - /url: "#/esercente/studio-dentistico-sorriso"
+            - generic [ref=f25e146]: Gratis
+          - generic [ref=f25e147]:
+            - link "Studio Dentistico Sorriso Prima visita + panoramica gratuita" [ref=f25e148] [cursor=pointer]:
+              - /url: "#/esercente/studio-dentistico-sorriso"
+              - text: Studio Dentistico Sorriso
+              - heading "Prima visita + panoramica gratuita" [level=3] [ref=f25e149]
+            - paragraph [ref=f25e150]: Valida fino a dom 19 lug
+          - generic [ref=f25e151]:
+            - generic [ref=f25e152]: Codice sconto
+            - button "Mostra codice" [ref=f25e153] [cursor=pointer]
+        - article [ref=f25e154]:
+          - link "StileLibero Parrucchieri" [ref=f25e155] [cursor=pointer]:
+            - /url: "#/esercente/stilelibero-parrucchieri"
+            - generic [ref=f25e156]: −20%
+          - generic [ref=f25e157]:
+            - 'link "StileLibero Parrucchieri Giovedì sera: taglio −20% under 30" [ref=f25e158] [cursor=pointer]':
+              - /url: "#/esercente/stilelibero-parrucchieri"
+              - text: StileLibero Parrucchieri
+              - 'heading "Giovedì sera: taglio −20% under 30" [level=3] [ref=f25e159]'
+            - paragraph [ref=f25e160]: Valida fino a dom 26 lug
+          - generic [ref=f25e161]:
+            - generic [ref=f25e162]: Codice sconto
+            - button "Mostra codice" [ref=f25e163] [cursor=pointer]
+        - article [ref=f25e164]:
+          - link "Ferramenta Beltramo" [ref=f25e165] [cursor=pointer]:
+            - /url: "#/esercente/ferramenta-beltramo"
+            - generic [ref=f25e166]: −10%
+          - generic [ref=f25e167]:
+            - link "Ferramenta Beltramo Giardinaggio −10% tutto il mese" [ref=f25e168] [cursor=pointer]:
+              - /url: "#/esercente/ferramenta-beltramo"
+              - text: Ferramenta Beltramo
+              - heading "Giardinaggio −10% tutto il mese" [level=3] [ref=f25e169]
+            - paragraph [ref=f25e170]: Valida fino a sab 1 ago
+          - generic [ref=f25e171]:
+            - generic [ref=f25e172]: Codice sconto
+            - button "Mostra codice" [ref=f25e173] [cursor=pointer]
+        - article [ref=f25e174]:
+          - link "Chiara Moda" [ref=f25e175] [cursor=pointer]:
+            - /url: "#/esercente/chiara-moda"
+            - generic [ref=f25e176]: −15%
+          - generic [ref=f25e177]:
+            - 'link "Chiara Moda Nuova collezione: −15% sul primo capo" [ref=f25e178] [cursor=pointer]':
+              - /url: "#/esercente/chiara-moda"
+              - text: Chiara Moda
+              - 'heading "Nuova collezione: −15% sul primo capo" [level=3] [ref=f25e179]'
+            - paragraph [ref=f25e180]: Valida fino a lun 20 lug
+          - generic [ref=f25e181]:
+            - generic [ref=f25e182]: Codice sconto
+            - button "Mostra codice" [ref=f25e183] [cursor=pointer]
+        - article [ref=f25e184]:
+          - link "Farmacia San Giuseppe" [ref=f25e185] [cursor=pointer]:
+            - /url: "#/esercente/farmacia-san-giuseppe"
+            - generic [ref=f25e186]: Gratis
+          - generic [ref=f25e187]:
+            - 'link "Farmacia San Giuseppe Settimana della pelle: consulenza gratuita" [ref=f25e188] [cursor=pointer]':
+              - /url: "#/esercente/farmacia-san-giuseppe"
+              - text: Farmacia San Giuseppe
+              - 'heading "Settimana della pelle: consulenza gratuita" [level=3] [ref=f25e189]'
+            - paragraph [ref=f25e190]: Valida fino a lun 13 lug
+          - generic [ref=f25e191]:
+            - generic [ref=f25e192]: Codice sconto
+            - button "Mostra codice" [ref=f25e193] [cursor=pointer]
+        - article [ref=f25e194]:
+          - link "Fioraio Petali" [ref=f25e195] [cursor=pointer]:
+            - /url: "#/esercente/fioraio-petali"
+            - generic [ref=f25e196]: −15%
+          - generic [ref=f25e197]:
+            - link "Fioraio Petali Bouquet di stagione −15% nel weekend" [ref=f25e198] [cursor=pointer]:
+              - /url: "#/esercente/fioraio-petali"
+              - text: Fioraio Petali
+              - heading "Bouquet di stagione −15% nel weekend" [level=3] [ref=f25e199]
+            - paragraph [ref=f25e200]: Valida fino a mer 15 lug
+          - generic [ref=f25e201]:
+            - generic [ref=f25e202]: Codice sconto
+            - button "Mostra codice" [ref=f25e203] [cursor=pointer]
+        - article [ref=f25e204]:
+          - link "Osteria del Parco" [ref=f25e205] [cursor=pointer]:
+            - /url: "#/esercente/osteria-del-parco"
+            - generic [ref=f25e206]: €15
+          - generic [ref=f25e207]:
+            - 'link "Osteria del Parco Pranzo feriale: menu del giorno €15" [ref=f25e208] [cursor=pointer]':
+              - /url: "#/esercente/osteria-del-parco"
+              - text: Osteria del Parco
+              - 'heading "Pranzo feriale: menu del giorno €15" [level=3] [ref=f25e209]'
+            - paragraph [ref=f25e210]: Valida fino a gio 30 lug
+          - generic [ref=f25e211]:
+            - generic [ref=f25e212]: Codice sconto
+            - button "Mostra codice" [ref=f25e213] [cursor=pointer]
+    - generic [ref=f25e214]:
+      - generic [ref=f25e216]:
+        - text: Novità dagli esercenti
+        - heading "Appena pubblicati" [level=2] [ref=f25e217]
+      - generic [ref=f25e218]:
+        - article [ref=f25e219]:
+          - link "Fioraio Petali Negozi · ieri" [ref=f25e220] [cursor=pointer]:
+            - /url: "#/esercente/fioraio-petali"
+            - generic [ref=f25e221]: FP
+            - generic [ref=f25e222]:
+              - strong [ref=f25e223]: Fioraio Petali
+              - generic [ref=f25e224]: Negozi · ieri
+          - paragraph [ref=f25e226]: "Il banco del venerdì: peonie, ranuncoli e tanta primavera. 🌸"
+        - article [ref=f25e227]:
+          - link "Chiara Moda Negozi · ieri" [ref=f25e228] [cursor=pointer]:
+            - /url: "#/esercente/chiara-moda"
+            - generic [ref=f25e229]: CM
+            - generic [ref=f25e230]:
+              - strong [ref=f25e231]: Chiara Moda
+              - generic [ref=f25e232]: Negozi · ieri
+          - paragraph [ref=f25e234]: Vetrina nuova, collezione nuova. Passate a trovarci in via Roma. ✨
+        - article [ref=f25e235]:
+          - link "Pizzeria La Torre Ristorazione · ieri" [ref=f25e236] [cursor=pointer]:
+            - /url: "#/esercente/pizzeria-la-torre"
+            - generic [ref=f25e237]: PL
+            - generic [ref=f25e238]:
+              - strong [ref=f25e239]: Pizzeria La Torre
+              - generic [ref=f25e240]: Ristorazione · ieri
+          - paragraph [ref=f25e242]: "Il forno è acceso, il campanile è lì fuori: vi aspettiamo in piazza. 🔥"
+        - article [ref=f25e243]:
+          - link "Panetteria del Borgo Alimentari · ieri" [ref=f25e244] [cursor=pointer]:
+            - /url: "#/esercente/panetteria-del-borgo"
+            - generic [ref=f25e245]: PB
+            - generic [ref=f25e246]:
+              - strong [ref=f25e247]: Panetteria del Borgo
+              - generic [ref=f25e248]: Alimentari · ieri
+          - paragraph [ref=f25e250]: "Il profumo delle 7 del mattino: prima infornata del giorno. 🥖"
+        - article [ref=f25e251]:
+          - link "Osteria del Parco Ristorazione · 2 giorni fa" [ref=f25e252] [cursor=pointer]:
+            - /url: "#/esercente/osteria-del-parco"
+            - generic [ref=f25e253]: OP
+            - generic [ref=f25e254]:
+              - strong [ref=f25e255]: Osteria del Parco
+              - generic [ref=f25e256]: Ristorazione · 2 giorni fa
+          - paragraph [ref=f25e258]: "Il plin della domenica si tira il sabato: oggi si chiude alle 15 per… mattarello. 😄"
+        - article [ref=f25e259]:
+          - link "StileLibero Parrucchieri Bellezza & Cura · 2 giorni fa" [ref=f25e260] [cursor=pointer]:
+            - /url: "#/esercente/stilelibero-parrucchieri"
+            - generic [ref=f25e261]: SP
+            - generic [ref=f25e262]:
+              - strong [ref=f25e263]: StileLibero Parrucchieri
+              - generic [ref=f25e264]: Bellezza & Cura · 2 giorni fa
+          - paragraph [ref=f25e266]: "Nuovo rituale head spa: 45 minuti solo per te. Da giovedì."
+        - article [ref=f25e267]:
+          - link "Caffè Centrale Bar & Caffè · 2 giorni fa" [ref=f25e268] [cursor=pointer]:
+            - /url: "#/esercente/caffe-centrale"
+            - generic [ref=f25e269]: CC
+            - generic [ref=f25e270]:
+              - strong [ref=f25e271]: Caffè Centrale
+              - generic [ref=f25e272]: Bar & Caffè · 2 giorni fa
+          - paragraph [ref=f25e274]: "Latte art del lunedì: si comincia col piede giusto. ☕"
+        - article [ref=f25e275]:
+          - link "Farmacia San Giuseppe Salute · 3 giorni fa" [ref=f25e276] [cursor=pointer]:
+            - /url: "#/esercente/farmacia-san-giuseppe"
+            - generic [ref=f25e277]: FS
+            - generic [ref=f25e278]:
+              - strong [ref=f25e279]: Farmacia San Giuseppe
+              - generic [ref=f25e280]: Salute · 3 giorni fa
+          - paragraph [ref=f25e282]: Da oggi puoi prenotare i farmaci da HiCom e ritirarli senza coda.
+    - generic [ref=f25e283]:
+      - generic [ref=f25e285]:
+        - text: Dal territorio
+        - heading "Il feed di Orbassano" [level=2] [ref=f25e286]
+      - generic [ref=f25e287]:
+        - article [ref=f25e288]:
+          - link "Osteria del Parco Ristorazione · 2 giorni fa" [ref=f25e289] [cursor=pointer]:
+            - /url: "#/esercente/osteria-del-parco"
+            - generic [ref=f25e290]: OP
+            - generic [ref=f25e291]:
+              - strong [ref=f25e292]: Osteria del Parco
+              - generic [ref=f25e293]: Ristorazione · 2 giorni fa
+          - paragraph [ref=f25e295]: "Il plin della domenica si tira il sabato: oggi si chiude alle 15 per… mattarello. 😄"
+        - article [ref=f25e296]:
+          - link "Pizzeria La Torre Ristorazione · 27 giu" [ref=f25e297] [cursor=pointer]:
+            - /url: "#/esercente/pizzeria-la-torre"
+            - generic [ref=f25e298]: PL
+            - generic [ref=f25e299]:
+              - strong [ref=f25e300]: Pizzeria La Torre
+              - generic [ref=f25e301]: Ristorazione · 27 giu
+          - paragraph [ref=f25e303]: "Padellino weekend: doppia lievitazione, doppia felicità."
+        - article [ref=f25e304]:
+          - link "Ferramenta Beltramo Artigiani & Casa · 25 giu" [ref=f25e305] [cursor=pointer]:
+            - /url: "#/esercente/ferramenta-beltramo"
+            - generic [ref=f25e306]: FB
+            - generic [ref=f25e307]:
+              - strong [ref=f25e308]: Ferramenta Beltramo
+              - generic [ref=f25e309]: Artigiani & Casa · 25 giu
+          - paragraph [ref=f25e311]: "È arrivata la stagione del verde: tutto per l’orto in negozio."
+        - generic [ref=f25e312]:
+          - generic [ref=f25e313]: Scopri un esercente
+          - link "Panetteria del Borgo Alimentari · Via Roma 24 Chiuso ora Ordina & ritira 2 offerte" [ref=f25e314] [cursor=pointer]:
+            - /url: "#/esercente/panetteria-del-borgo"
+            - generic [ref=f25e316]:
+              - heading "Panetteria del Borgo" [level=3] [ref=f25e317]
+              - paragraph [ref=f25e318]: Alimentari · Via Roma 24
+              - paragraph [ref=f25e319]: Chiuso ora
+              - generic [ref=f25e321]:
+                - generic [ref=f25e322]: Ordina & ritira
+                - generic [ref=f25e323]: 2 offerte
+        - article [ref=f25e324]:
+          - link "Fioraio Petali Negozi · ieri" [ref=f25e325] [cursor=pointer]:
+            - /url: "#/esercente/fioraio-petali"
+            - generic [ref=f25e326]: FP
+            - generic [ref=f25e327]:
+              - strong [ref=f25e328]: Fioraio Petali
+              - generic [ref=f25e329]: Negozi · ieri
+          - paragraph [ref=f25e331]: "Il banco del venerdì: peonie, ranuncoli e tanta primavera. 🌸"
+        - article [ref=f25e332]:
+          - link "Fioraio Petali Negozi · 6 giorni fa" [ref=f25e333] [cursor=pointer]:
+            - /url: "#/esercente/fioraio-petali"
+            - generic [ref=f25e334]: FP
+            - generic [ref=f25e335]:
+              - strong [ref=f25e336]: Fioraio Petali
+              - generic [ref=f25e337]: Negozi · 6 giorni fa
+          - paragraph [ref=f25e339]: "Orchidee nuove in negozio: quale portereste a casa?"
+        - article [ref=f25e340]:
+          - link "StileLibero Parrucchieri Bellezza & Cura · 2 giorni fa" [ref=f25e341] [cursor=pointer]:
+            - /url: "#/esercente/stilelibero-parrucchieri"
+            - generic [ref=f25e342]: SP
+            - generic [ref=f25e343]:
+              - strong [ref=f25e344]: StileLibero Parrucchieri
+              - generic [ref=f25e345]: Bellezza & Cura · 2 giorni fa
+          - paragraph [ref=f25e347]: "Nuovo rituale head spa: 45 minuti solo per te. Da giovedì."
+        - generic [ref=f25e348]:
+          - generic [ref=f25e349]: Scopri un esercente
+          - link "Studio Tecnico Rinaldi Servizi & Studi · Via De Amicis 11 Chiuso ora" [ref=f25e350] [cursor=pointer]:
+            - /url: "#/esercente/studio-tecnico-rinaldi"
+            - generic [ref=f25e352]:
+              - heading "Studio Tecnico Rinaldi" [level=3] [ref=f25e353]
+              - paragraph [ref=f25e354]: Servizi & Studi · Via De Amicis 11
+              - paragraph [ref=f25e355]: Chiuso ora
+        - article [ref=f25e357]:
+          - link "StileLibero Parrucchieri Bellezza & Cura · 26 giu" [ref=f25e358] [cursor=pointer]:
+            - /url: "#/esercente/stilelibero-parrucchieri"
+            - generic [ref=f25e359]: SP
+            - generic [ref=f25e360]:
+              - strong [ref=f25e361]: StileLibero Parrucchieri
+              - generic [ref=f25e362]: Bellezza & Cura · 26 giu
+          - paragraph [ref=f25e364]: I colori dell’autunno sono arrivati in salone. 🍂
+        - article [ref=f25e365]:
+          - link "Chiara Moda Negozi · ieri" [ref=f25e366] [cursor=pointer]:
+            - /url: "#/esercente/chiara-moda"
+            - generic [ref=f25e367]: CM
+            - generic [ref=f25e368]:
+              - strong [ref=f25e369]: Chiara Moda
+              - generic [ref=f25e370]: Negozi · ieri
+          - paragraph [ref=f25e372]: Vetrina nuova, collezione nuova. Passate a trovarci in via Roma. ✨
+        - article [ref=f25e373]:
+          - link "Pizzeria La Torre Ristorazione · 4 giorni fa" [ref=f25e374] [cursor=pointer]:
+            - /url: "#/esercente/pizzeria-la-torre"
+            - generic [ref=f25e375]: PL
+            - generic [ref=f25e376]:
+              - strong [ref=f25e377]: Pizzeria La Torre
+              - generic [ref=f25e378]: Ristorazione · 4 giorni fa
+          - paragraph [ref=f25e380]: "La Torre di stasera: carciofi nuovi appena arrivati dal mercato."
+        - generic [ref=f25e381]:
+          - generic [ref=f25e382]: Scopri un esercente
+          - link "Studio Dentistico Sorriso Salute · Via Cavour 8 Chiuso ora Prenota Chat 1 offerta" [ref=f25e383] [cursor=pointer]:
+            - /url: "#/esercente/studio-dentistico-sorriso"
+            - generic [ref=f25e385]:
+              - heading "Studio Dentistico Sorriso" [level=3] [ref=f25e386]
+              - paragraph [ref=f25e387]: Salute · Via Cavour 8
+              - paragraph [ref=f25e388]: Chiuso ora
+              - generic [ref=f25e390]:
+                - generic [ref=f25e391]: Prenota
+                - generic [ref=f25e392]: Chat
+                - generic [ref=f25e393]: 1 offerta
+        - article [ref=f25e394]:
+          - link "Osteria del Parco Ristorazione · 27 giu" [ref=f25e395] [cursor=pointer]:
+            - /url: "#/esercente/osteria-del-parco"
+            - generic [ref=f25e396]: OP
+            - generic [ref=f25e397]:
+              - strong [ref=f25e398]: Osteria del Parco
+              - generic [ref=f25e399]: Ristorazione · 27 giu
+          - paragraph [ref=f25e401]: "Torna il brasato: 12 ore di cottura, zero scorciatoie."
+        - article [ref=f25e402]:
+          - link "Caffè Centrale Bar & Caffè · 2 giorni fa" [ref=f25e403] [cursor=pointer]:
+            - /url: "#/esercente/caffe-centrale"
+            - generic [ref=f25e404]: CC
+            - generic [ref=f25e405]:
+              - strong [ref=f25e406]: Caffè Centrale
+              - generic [ref=f25e407]: Bar & Caffè · 2 giorni fa
+          - paragraph [ref=f25e409]: "Latte art del lunedì: si comincia col piede giusto. ☕"
+        - article [ref=f25e410]:
+          - link "Caffè Centrale Bar & Caffè · 5 giorni fa" [ref=f25e411] [cursor=pointer]:
+            - /url: "#/esercente/caffe-centrale"
+            - generic [ref=f25e412]: CC
+            - generic [ref=f25e413]:
+              - strong [ref=f25e414]: Caffè Centrale
+              - generic [ref=f25e415]: Bar & Caffè · 5 giorni fa
+          - paragraph [ref=f25e417]: "Aperitivo in dehors: stasera tagliere speciale con toma di Lanzo."
+        - generic [ref=f25e418]:
+          - generic [ref=f25e419]: Scopri un esercente
+          - link "Fioraio Petali Negozi · Via Montegrappa 2 Chiuso ora 1 offerta" [ref=f25e420] [cursor=pointer]:
+            - /url: "#/esercente/fioraio-petali"
+            - generic [ref=f25e422]:
+              - heading "Fioraio Petali" [level=3] [ref=f25e423]
+              - paragraph [ref=f25e424]: Negozi · Via Montegrappa 2
+              - paragraph [ref=f25e425]: Chiuso ora
+              - generic [ref=f25e428]: 1 offerta
+        - article [ref=f25e429]:
+          - link "Farmacia San Giuseppe Salute · 3 giorni fa" [ref=f25e430] [cursor=pointer]:
+            - /url: "#/esercente/farmacia-san-giuseppe"
+            - generic [ref=f25e431]: FS
+            - generic [ref=f25e432]:
+              - strong [ref=f25e433]: Farmacia San Giuseppe
+              - generic [ref=f25e434]: Salute · 3 giorni fa
+          - paragraph [ref=f25e436]: Da oggi puoi prenotare i farmaci da HiCom e ritirarli senza coda.
+        - article [ref=f25e437]:
+          - link "Chiara Moda Negozi · 23 giu" [ref=f25e438] [cursor=pointer]:
+            - /url: "#/esercente/chiara-moda"
+            - generic [ref=f25e439]: CM
+            - generic [ref=f25e440]:
+              - strong [ref=f25e441]: Chiara Moda
+              - generic [ref=f25e442]: Negozi · 23 giu
+          - paragraph [ref=f25e444]: "Foulard d’artista: nuova serie numerata, pezzi unici."
+        - article [ref=f25e445]:
+          - link "Studio Tecnico Rinaldi Servizi & Studi · 24 giu" [ref=f25e446] [cursor=pointer]:
+            - /url: "#/esercente/studio-tecnico-rinaldi"
+            - generic [ref=f25e447]: ST
+            - generic [ref=f25e448]:
+              - strong [ref=f25e449]: Studio Tecnico Rinaldi
+              - generic [ref=f25e450]: Servizi & Studi · 24 giu
+          - paragraph [ref=f25e452]: "Bonus casa 2026: facciamo chiarezza. Primo confronto gratuito in studio."
+        - generic [ref=f25e453]:
+          - generic [ref=f25e454]: Scopri un esercente
+          - link "Ferramenta Beltramo Artigiani & Casa · Strada Torino 41 Chiuso ora 1 offerta" [ref=f25e455] [cursor=pointer]:
+            - /url: "#/esercente/ferramenta-beltramo"
+            - generic [ref=f25e457]:
+              - heading "Ferramenta Beltramo" [level=3] [ref=f25e458]
+              - paragraph [ref=f25e459]: Artigiani & Casa · Strada Torino 41
+              - paragraph [ref=f25e460]: Chiuso ora
+              - generic [ref=f25e463]: 1 offerta
+        - article [ref=f25e464]:
+          - link "Chiara Moda Negozi · 5 giorni fa" [ref=f25e465] [cursor=pointer]:
+            - /url: "#/esercente/chiara-moda"
+            - generic [ref=f25e466]: CM
+            - generic [ref=f25e467]:
+              - strong [ref=f25e468]: Chiara Moda
+              - generic [ref=f25e469]: Negozi · 5 giorni fa
+          - paragraph [ref=f25e471]: "Il blazer in lino che mette d’accordo tutte: naturale o salvia?"
+        - article [ref=f25e472]:
+          - link "Panetteria del Borgo Alimentari · 3 giorni fa" [ref=f25e473] [cursor=pointer]:
+            - /url: "#/esercente/panetteria-del-borgo"
+            - generic [ref=f25e474]: PB
+            - generic [ref=f25e475]:
+              - strong [ref=f25e476]: Panetteria del Borgo
+              - generic [ref=f25e477]: Alimentari · 3 giorni fa
+          - paragraph [ref=f25e479]: Torna la torta di nocciole della domenica — prenotala entro sabato!
+        - article [ref=f25e480]:
+          - link "Studio Dentistico Sorriso Salute · 6 giorni fa" [ref=f25e481] [cursor=pointer]:
+            - /url: "#/esercente/studio-dentistico-sorriso"
+            - generic [ref=f25e482]: SD
+            - generic [ref=f25e483]:
+              - strong [ref=f25e484]: Studio Dentistico Sorriso
+              - generic [ref=f25e485]: Salute · 6 giorni fa
+          - paragraph [ref=f25e487]: "La sala bimbi si è rifatta il look: venite a scoprirla! 🦷"
+        - generic [ref=f25e488]:
+          - generic [ref=f25e489]: Scopri un esercente
+          - link "Osteria del Parco Ristorazione · Via Gozzano 19 Chiuso ora Prenota Vetrina curata 1 offerta" [ref=f25e490] [cursor=pointer]:
+            - /url: "#/esercente/osteria-del-parco"
+            - generic [ref=f25e492]:
+              - heading "Osteria del Parco" [level=3] [ref=f25e493]
+              - paragraph [ref=f25e494]: Ristorazione · Via Gozzano 19
+              - paragraph [ref=f25e495]: Chiuso ora
+              - generic [ref=f25e497]:
+                - generic [ref=f25e498]: Prenota
+                - generic [ref=f25e499]: Vetrina curata
+                - generic [ref=f25e500]: 1 offerta
+        - article [ref=f25e501]:
+          - link "Panetteria del Borgo Alimentari · ieri" [ref=f25e502] [cursor=pointer]:
+            - /url: "#/esercente/panetteria-del-borgo"
+            - generic [ref=f25e503]: PB
+            - generic [ref=f25e504]:
+              - strong [ref=f25e505]: Panetteria del Borgo
+              - generic [ref=f25e506]: Alimentari · ieri
+          - paragraph [ref=f25e508]: "Il profumo delle 7 del mattino: prima infornata del giorno. 🥖"
+        - article [ref=f25e509]:
+          - link "Pizzeria La Torre Ristorazione · ieri" [ref=f25e510] [cursor=pointer]:
+            - /url: "#/esercente/pizzeria-la-torre"
+            - generic [ref=f25e511]: PL
+            - generic [ref=f25e512]:
+              - strong [ref=f25e513]: Pizzeria La Torre
+              - generic [ref=f25e514]: Ristorazione · ieri
+          - paragraph [ref=f25e516]: "Il forno è acceso, il campanile è lì fuori: vi aspettiamo in piazza. 🔥"
+  - contentinfo [ref=f25e517]:
+    - generic [ref=f25e518]:
+      - generic [ref=f25e519]:
+        - generic [ref=f25e520]:
+          - img [ref=f25e521]
+          - generic [ref=f25e525]: HiCom
+        - paragraph [ref=f25e526]: "La rete del commercio locale di Orbassano: ogni attività una vetrina, ai cittadini le offerte migliori, al territorio il valore che resta."
+      - generic [ref=f25e527]:
+        - heading "Per i cittadini" [level=4] [ref=f25e528]
+        - generic [ref=f25e529]:
+          - link "Tutti gli esercenti" [ref=f25e530] [cursor=pointer]:
+            - /url: "#/esplora"
+          - link "Offerte attive" [ref=f25e531] [cursor=pointer]:
+            - /url: "#/offerte"
+          - link "Le tue chat" [ref=f25e532] [cursor=pointer]:
+            - /url: "#/chat"
+      - generic [ref=f25e533]:
+        - heading "Per gli esercenti" [level=4] [ref=f25e534]
+        - generic [ref=f25e535]:
+          - link "Accedi alla tua area" [ref=f25e536] [cursor=pointer]:
+            - /url: "#/login"
+          - link "Entra nella rete — da €12/mese" [ref=f25e537] [cursor=pointer]:
+            - /url: "#/login"
+          - link "Amministrazione" [ref=f25e538] [cursor=pointer]:
+            - /url: "#/admin"
+      - generic [ref=f25e539]:
+        - generic [ref=f25e540]: HICOM · PROTOTIPO DIMOSTRATIVO
+        - generic [ref=f25e541]: UN PROGETTO DI GABRIELE CHIBBARO
+        - button "RESET DEMO" [ref=f25e542] [cursor=pointer]

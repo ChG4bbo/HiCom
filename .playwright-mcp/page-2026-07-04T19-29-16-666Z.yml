@@ -1,0 +1,86 @@
+- generic [ref=f24e540]:
+  - banner [ref=f24e541]:
+    - generic [ref=f24e542]:
+      - img [ref=f24e543]
+      - generic [ref=f24e547]: PB
+      - generic [ref=f24e548]:
+        - text: Area esercente
+        - strong [ref=f24e549]: Panetteria del Borgo
+      - link "Pagina pubblica" [ref=f24e550] [cursor=pointer]:
+        - /url: "#/esercente/panetteria-del-borgo"
+        - img [ref=f24e551]
+      - button "Esci" [ref=f24e555] [cursor=pointer]:
+        - img [ref=f24e556]
+    - navigation [ref=f24e559]:
+      - link "Dashboard" [ref=f24e560] [cursor=pointer]:
+        - /url: "#/area-esercente"
+      - link "Vetrina" [ref=f24e561] [cursor=pointer]:
+        - /url: "#/area-esercente/vetrina"
+      - link "Offerte" [ref=f24e562] [cursor=pointer]:
+        - /url: "#/area-esercente/offerte"
+      - link "Post" [ref=f24e563] [cursor=pointer]:
+        - /url: "#/area-esercente/post"
+      - link "Ordini 1" [ref=f24e564] [cursor=pointer]:
+        - /url: "#/area-esercente/ordini"
+        - text: Ordini
+        - generic [ref=f24e565]: "1"
+      - link "Strumenti" [ref=f24e566] [cursor=pointer]:
+        - /url: "#/area-esercente/strumenti"
+      - link "Abbonamento & plugin" [ref=f24e567] [cursor=pointer]:
+        - /url: "#/area-esercente/abbonamento"
+  - main [ref=f24e569]:
+    - text: La tua giornata
+    - heading "Ciao, Panetteria del Borgo 👋" [level=1] [ref=f24e570]
+    - paragraph [ref=f24e571]: Ecco come sta andando la tua vetrina su HiCom.
+    - generic [ref=f24e572]:
+      - generic [ref=f24e573]:
+        - generic [ref=f24e574]: Visite oggi
+        - generic [ref=f24e575]: "40"
+        - generic [ref=f24e576]: alla tua pagina
+      - generic [ref=f24e577]:
+        - generic [ref=f24e578]: Offerte attive
+        - generic [ref=f24e579]: "2"
+        - link "gestisci →" [ref=f24e580] [cursor=pointer]:
+          - /url: "#/offerte"
+      - generic [ref=f24e581]:
+        - generic [ref=f24e582]: Ordini in coda
+        - generic [ref=f24e583]: "2"
+        - link "prepara →" [ref=f24e584] [cursor=pointer]:
+          - /url: "#/ordini"
+      - generic [ref=f24e585]:
+        - generic [ref=f24e586]: Canone mensile
+        - generic [ref=f24e587]: €17
+        - link "dettagli →" [ref=f24e588] [cursor=pointer]:
+          - /url: "#/abbonamento"
+    - generic [ref=f24e589]:
+      - heading "Azioni rapide" [level=2] [ref=f24e591]
+      - generic [ref=f24e592]:
+        - link "+ Nuova offerta" [ref=f24e593] [cursor=pointer]:
+          - /url: "#/offerte?nuova=1"
+        - link "+ Nuovo post" [ref=f24e594] [cursor=pointer]:
+          - /url: "#/post?nuovo=1"
+        - link "Modifica vetrina" [ref=f24e595] [cursor=pointer]:
+          - /url: "#/vetrina"
+        - link "Vedi la pagina pubblica" [ref=f24e596] [cursor=pointer]:
+          - /url: "#/esercente/panetteria-del-borgo"
+    - generic [ref=f24e597]:
+      - generic [ref=f24e598]:
+        - heading "Ordini da preparare" [level=2] [ref=f24e599]
+        - link "Tutti →" [ref=f24e600] [cursor=pointer]:
+          - /url: "#/ordini"
+      - generic [ref=f24e601]:
+        - generic [ref=f24e602]:
+          - text: 12:30
+          - generic [ref=f24e603]: ritiro
+        - generic [ref=f24e604]:
+          - heading "Marta Olivero" [level=3] [ref=f24e605]
+          - paragraph [ref=f24e606]: 1× Focaccia all’olio, 4× Pizza al padellino
+        - generic [ref=f24e607]: In preparazione
+      - generic [ref=f24e608]:
+        - generic [ref=f24e609]:
+          - text: 18:00
+          - generic [ref=f24e610]: ritiro
+        - generic [ref=f24e611]:
+          - heading "Luca Bonino" [level=3] [ref=f24e612]
+          - paragraph [ref=f24e613]: 2× Pane di grano duro
+        - generic [ref=f24e614]: Nuovo

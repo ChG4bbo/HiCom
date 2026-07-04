@@ -1,0 +1,86 @@
+- generic [ref=f22e575]:
+  - generic [ref=f22e576]:
+    - link "Torna all'app" [ref=f22e577] [cursor=pointer]:
+      - /url: "#/"
+      - img [ref=f22e578]
+      - text: Torna all'app
+    - generic [ref=f22e580]:
+      - img [ref=f22e581]
+      - generic [ref=f22e585]: HiCom
+    - heading "La tua attività, gestita da qui." [level=1] [ref=f22e586]
+    - paragraph [ref=f22e587]: "Vetrina, offerte, prenotazioni, ordini e chat: tutto in un unico pannello, semplice come un social. Dal canone base di €12/mese, con plugin e servizi che crescono con te."
+  - generic [ref=f22e588]:
+    - heading "Accedi alla tua area" [level=2] [ref=f22e589]
+    - paragraph [ref=f22e590]: Riservata agli esercenti della rete HiCom.
+    - generic [ref=f22e591]:
+      - text: Prototipo dimostrativo — accedi con
+      - code [ref=f22e592]: demo@hicom.it
+      - text: /
+      - code [ref=f22e593]: demo
+      - text: o scegli direttamente un esercente di prova.
+    - generic [ref=f22e594]:
+      - generic [ref=f22e595]:
+        - generic [ref=f22e596]: Email
+        - textbox "Email" [ref=f22e597]: demo@hicom.it
+      - generic [ref=f22e598]:
+        - generic [ref=f22e599]: Password
+        - textbox "Password" [ref=f22e600]: demo
+      - button "Entra" [ref=f22e601] [cursor=pointer]
+    - generic [ref=f22e602]:
+      - text: Demo · entra come…
+      - generic [ref=f22e603]:
+        - button "Panetteria del Borgo Alimentari · 1 plugin · strumenti su misura" [ref=f22e604] [cursor=pointer]:
+          - generic [ref=f22e605]: PB
+          - generic [ref=f22e606]:
+            - heading "Panetteria del Borgo" [level=3] [ref=f22e607]
+            - paragraph [ref=f22e608]: Alimentari · 1 plugin · strumenti su misura
+        - button "Pizzeria La Torre Ristorazione · 3 plugin" [ref=f22e609] [cursor=pointer]:
+          - generic [ref=f22e610]: PL
+          - generic [ref=f22e611]:
+            - heading "Pizzeria La Torre" [level=3] [ref=f22e612]
+            - paragraph [ref=f22e613]: Ristorazione · 3 plugin
+        - button "Caffè Centrale Bar & Caffè · 1 plugin" [ref=f22e614] [cursor=pointer]:
+          - generic [ref=f22e615]: CC
+          - generic [ref=f22e616]:
+            - heading "Caffè Centrale" [level=3] [ref=f22e617]
+            - paragraph [ref=f22e618]: Bar & Caffè · 1 plugin
+        - button "Studio Dentistico Sorriso Salute · 2 plugin · strumenti su misura" [ref=f22e619] [cursor=pointer]:
+          - generic [ref=f22e620]: SD
+          - generic [ref=f22e621]:
+            - heading "Studio Dentistico Sorriso" [level=3] [ref=f22e622]
+            - paragraph [ref=f22e623]: Salute · 2 plugin · strumenti su misura
+        - button "StileLibero Parrucchieri Bellezza & Cura · 1 plugin" [ref=f22e624] [cursor=pointer]:
+          - generic [ref=f22e625]: SP
+          - generic [ref=f22e626]:
+            - heading "StileLibero Parrucchieri" [level=3] [ref=f22e627]
+            - paragraph [ref=f22e628]: Bellezza & Cura · 1 plugin
+        - button "Ferramenta Beltramo Artigiani & Casa · canone base · strumenti su misura" [ref=f22e629] [cursor=pointer]:
+          - generic [ref=f22e630]: FB
+          - generic [ref=f22e631]:
+            - heading "Ferramenta Beltramo" [level=3] [ref=f22e632]
+            - paragraph [ref=f22e633]: Artigiani & Casa · canone base · strumenti su misura
+        - button "Chiara Moda Negozi · 2 plugin · strumenti su misura" [ref=f22e634] [cursor=pointer]:
+          - generic [ref=f22e635]: CM
+          - generic [ref=f22e636]:
+            - heading "Chiara Moda" [level=3] [ref=f22e637]
+            - paragraph [ref=f22e638]: Negozi · 2 plugin · strumenti su misura
+        - button "Farmacia San Giuseppe Salute · 1 plugin" [ref=f22e639] [cursor=pointer]:
+          - generic [ref=f22e640]: FS
+          - generic [ref=f22e641]:
+            - heading "Farmacia San Giuseppe" [level=3] [ref=f22e642]
+            - paragraph [ref=f22e643]: Salute · 1 plugin
+        - button "Studio Tecnico Rinaldi Servizi & Studi · canone base" [ref=f22e644] [cursor=pointer]:
+          - generic [ref=f22e645]: ST
+          - generic [ref=f22e646]:
+            - heading "Studio Tecnico Rinaldi" [level=3] [ref=f22e647]
+            - paragraph [ref=f22e648]: Servizi & Studi · canone base
+        - button "Fioraio Petali Negozi · canone base" [ref=f22e649] [cursor=pointer]:
+          - generic [ref=f22e650]: FP
+          - generic [ref=f22e651]:
+            - heading "Fioraio Petali" [level=3] [ref=f22e652]
+            - paragraph [ref=f22e653]: Negozi · canone base
+        - button "Osteria del Parco Ristorazione · 1 plugin" [ref=f22e654] [cursor=pointer]:
+          - generic [ref=f22e655]: OP
+          - generic [ref=f22e656]:
+            - heading "Osteria del Parco" [level=3] [ref=f22e657]
+            - paragraph [ref=f22e658]: Ristorazione · 1 plugin
