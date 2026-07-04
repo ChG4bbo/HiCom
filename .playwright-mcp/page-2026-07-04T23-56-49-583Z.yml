@@ -1,0 +1,88 @@
+- generic [ref=f27e3]:
+  - banner [ref=f27e4]:
+    - generic [ref=f27e5]:
+      - img [ref=f27e6]
+      - generic [ref=f27e10]: PB
+      - generic [ref=f27e11]:
+        - text: Area esercente
+        - strong [ref=f27e12]: Panetteria del Borgo
+      - link "Pagina pubblica" [ref=f27e13] [cursor=pointer]:
+        - /url: "#/esercente/panetteria-del-borgo"
+        - img [ref=f27e14]
+      - button "Esci" [ref=f27e18] [cursor=pointer]:
+        - img [ref=f27e19]
+    - navigation [ref=f27e22]:
+      - link "Dashboard" [ref=f27e23] [cursor=pointer]:
+        - /url: "#/area-esercente"
+      - link "Vetrina" [ref=f27e24] [cursor=pointer]:
+        - /url: "#/area-esercente/vetrina"
+      - link "Offerte" [ref=f27e25] [cursor=pointer]:
+        - /url: "#/area-esercente/offerte"
+      - link "Post" [ref=f27e26] [cursor=pointer]:
+        - /url: "#/area-esercente/post"
+      - link "Ordini 1" [ref=f27e65] [cursor=pointer]:
+        - /url: "#/area-esercente/ordini"
+        - text: Ordini
+        - generic [ref=f27e28]: "1"
+      - link "Strumenti" [ref=f27e29] [cursor=pointer]:
+        - /url: "#/area-esercente/strumenti"
+      - link "Abbonamento & plugin" [ref=f27e30] [cursor=pointer]:
+        - /url: "#/area-esercente/abbonamento"
+  - main [ref=f27e31]:
+    - text: Promozioni con codice in cassa
+    - heading "Le tue offerte" [level=1] [ref=f27e67]
+    - paragraph [ref=f27e68]: Appena pubblicate compaiono in home e nella tua pagina.
+    - generic [ref=f27e69]:
+      - generic [ref=f27e70]:
+        - heading "Attive (2)" [level=2] [ref=f27e71]
+        - button "Nuova offerta" [ref=f27e72] [cursor=pointer]:
+          - img [ref=f27e73]
+          - text: Nuova offerta
+      - generic [ref=f27e75]:
+        - generic [ref=f27e77]:
+          - 'heading "Dalle 17: −30% sul pane del giorno" [level=3] [ref=f27e78]'
+          - paragraph [ref=f27e79]: Codice PANE30 · fino a ven 24 lug
+        - generic [ref=f27e80]: −30%
+        - 'button "Elimina Dalle 17: −30% sul pane del giorno" [ref=f27e81] [cursor=pointer]':
+          - img [ref=f27e82]
+      - generic [ref=f27e84]:
+        - generic [ref=f27e86]:
+          - heading "3×2 sui grissini stirati" [level=3] [ref=f27e87]
+          - paragraph [ref=f27e88]: Codice GRISS3X2 · fino a gio 16 lug
+        - generic [ref=f27e89]: 3×2
+        - button "Elimina 3×2 sui grissini stirati" [ref=f27e90] [cursor=pointer]:
+          - img [ref=f27e91]
+    - dialog "Nuova offerta" [ref=f27e94]:
+      - generic [ref=f27e95]:
+        - heading "Nuova offerta" [level=3] [ref=f27e96]
+        - button "Chiudi" [ref=f27e97] [cursor=pointer]:
+          - img [ref=f27e98]
+      - generic [ref=f27e100]:
+        - generic [ref=f27e101]: Titolo
+        - textbox "Titolo" [ref=f27e102]:
+          - /placeholder: "Es. Weekend: focaccia −20%"
+      - generic [ref=f27e103]:
+        - generic [ref=f27e104]: Descrizione
+        - textbox "Descrizione" [ref=f27e105]:
+          - /placeholder: Come funziona, quando vale…
+      - generic [ref=f27e106]:
+        - generic [ref=f27e107]:
+          - generic [ref=f27e108]: Sconto (etichetta)
+          - textbox "Sconto (etichetta)" [ref=f27e109]:
+            - /placeholder: −20% · 3×2 · €5
+        - generic [ref=f27e110]:
+          - generic [ref=f27e111]: Valida fino al
+          - textbox "Valida fino al" [ref=f27e112]: 2026-07-18
+      - generic [ref=f27e113]:
+        - generic [ref=f27e114]: Foto
+        - generic [ref=f27e115]:
+          - button "Scegli foto" [ref=f27e116] [cursor=pointer]
+          - button "Scegli foto" [ref=f27e117] [cursor=pointer]
+          - button "Scegli foto" [ref=f27e118] [cursor=pointer]
+          - button "Scegli foto" [ref=f27e119] [cursor=pointer]
+          - button "Scegli foto" [ref=f27e120] [cursor=pointer]
+          - button "Scegli foto" [ref=f27e121] [cursor=pointer]
+          - button "Scegli foto" [ref=f27e122] [cursor=pointer]
+          - button "Scegli foto" [ref=f27e123] [cursor=pointer]
+      - paragraph [ref=f27e124]: "Il codice sconto viene generato automaticamente: il cittadino lo mostra in cassa."
+      - button "Pubblica l'offerta" [disabled]

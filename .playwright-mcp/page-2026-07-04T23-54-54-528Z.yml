@@ -1,0 +1,106 @@
+- generic [ref=f26e3]:
+  - banner [ref=f26e4]:
+    - generic [ref=f26e5]:
+      - link "HiCom — home" [ref=f26e6] [cursor=pointer]:
+        - /url: "#/"
+        - generic [ref=f26e7]:
+          - img [ref=f26e8]
+          - generic [ref=f26e12]: HiCom
+      - generic [ref=f26e13]:
+        - img [ref=f26e14]
+        - text: ORBASSANO
+  - main [ref=f26e17]:
+    - generic [ref=f26e18]:
+      - text: Tutta la rete di Orbassano
+      - heading "Esplora gli esercenti" [level=1] [ref=f26e19]
+      - generic [ref=f26e20]:
+        - img [ref=f26e21]
+        - searchbox "Cerca esercenti" [ref=f26e24]
+    - generic [ref=f26e25]:
+      - button "Tutti" [ref=f26e26] [cursor=pointer]
+      - button "🍕 Ristorazione" [active] [ref=f26e27] [cursor=pointer]
+      - button "☕ Bar & Caffè" [ref=f26e28] [cursor=pointer]
+      - button "🥖 Alimentari" [ref=f26e29] [cursor=pointer]
+      - button "💈 Bellezza & Cura" [ref=f26e30] [cursor=pointer]
+      - button "💊 Salute" [ref=f26e31] [cursor=pointer]
+      - button "📐 Servizi & Studi" [ref=f26e32] [cursor=pointer]
+      - button "🔧 Artigiani & Casa" [ref=f26e33] [cursor=pointer]
+      - button "🛍️ Negozi" [ref=f26e34] [cursor=pointer]
+      - generic [ref=f26e35]: "|"
+      - button "Si prenota" [ref=f26e36] [cursor=pointer]
+      - button "Ordina & ritira" [ref=f26e37] [cursor=pointer]
+      - button "Chat" [ref=f26e38] [cursor=pointer]
+      - button "Aperto ora" [ref=f26e39] [cursor=pointer]
+    - generic [ref=f26e203]:
+      - generic:
+        - generic:
+          - img
+        - generic:
+          - button "🍕" [ref=f26e208] [cursor=pointer]:
+            - generic [ref=f26e210]: 🍕
+          - button "🍕" [ref=f26e235] [cursor=pointer]:
+            - generic [ref=f26e237]: 🍕
+      - generic:
+        - generic:
+          - generic [ref=f26e238]:
+            - button "Zoom in" [ref=f26e239] [cursor=pointer]: +
+            - button "Zoom out" [ref=f26e240] [cursor=pointer]: −
+          - generic [ref=f26e241]:
+            - link "Leaflet" [ref=f26e242] [cursor=pointer]:
+              - /url: https://leafletjs.com
+              - img [ref=f26e243]
+              - text: Leaflet
+            - text: "| © OpenStreetMap © CARTO"
+    - tablist "Vista" [ref=f26e150]:
+      - button "Lista" [ref=f26e151] [cursor=pointer]:
+        - img [ref=f26e152]
+        - text: Lista
+      - button "Mappa" [ref=f26e157] [cursor=pointer]:
+        - img [ref=f26e158]
+        - text: Mappa
+  - contentinfo [ref=f26e161]:
+    - generic [ref=f26e162]:
+      - generic [ref=f26e163]:
+        - generic [ref=f26e164]:
+          - img [ref=f26e165]
+          - generic [ref=f26e169]: HiCom
+        - paragraph [ref=f26e170]: "La rete del commercio locale di Orbassano: ogni attività una vetrina, ai cittadini le offerte migliori, al territorio il valore che resta."
+      - generic [ref=f26e171]:
+        - heading "Per i cittadini" [level=4] [ref=f26e172]
+        - generic [ref=f26e173]:
+          - link "Tutti gli esercenti" [ref=f26e174] [cursor=pointer]:
+            - /url: "#/esplora"
+          - link "Offerte attive" [ref=f26e175] [cursor=pointer]:
+            - /url: "#/offerte"
+          - link "Le tue chat" [ref=f26e176] [cursor=pointer]:
+            - /url: "#/chat"
+      - generic [ref=f26e177]:
+        - heading "Per gli esercenti" [level=4] [ref=f26e178]
+        - generic [ref=f26e179]:
+          - link "Accedi alla tua area" [ref=f26e180] [cursor=pointer]:
+            - /url: "#/login"
+          - link "Entra nella rete — da €12/mese" [ref=f26e181] [cursor=pointer]:
+            - /url: "#/login"
+          - link "Amministrazione" [ref=f26e182] [cursor=pointer]:
+            - /url: "#/admin"
+      - generic [ref=f26e183]:
+        - generic [ref=f26e184]: HICOM · PROTOTIPO DIMOSTRATIVO
+        - generic [ref=f26e185]: UN PROGETTO DI GABRIELE CHIBBARO
+        - button "RESET DEMO" [ref=f26e186] [cursor=pointer]
+  - navigation "Navigazione principale" [ref=f26e187]:
+    - link "Home" [ref=f26e188] [cursor=pointer]:
+      - /url: "#/"
+      - img [ref=f26e189]
+      - text: Home
+    - link "Esplora" [ref=f26e192] [cursor=pointer]:
+      - /url: "#/esplora"
+      - img [ref=f26e193]
+      - text: Esplora
+    - link "Offerte" [ref=f26e196] [cursor=pointer]:
+      - /url: "#/offerte"
+      - img [ref=f26e197]
+      - text: Offerte
+    - link "Chat" [ref=f26e199] [cursor=pointer]:
+      - /url: "#/chat"
+      - img [ref=f26e200]
+      - text: Chat

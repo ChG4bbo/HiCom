@@ -1,0 +1,65 @@
+- generic [ref=f27e3]:
+  - banner [ref=f27e4]:
+    - generic [ref=f27e5]:
+      - img [ref=f27e6]
+      - generic [ref=f27e10]: PB
+      - generic [ref=f27e11]:
+        - text: Area esercente
+        - strong [ref=f27e12]: Panetteria del Borgo
+      - link "Pagina pubblica" [ref=f27e13] [cursor=pointer]:
+        - /url: "#/esercente/panetteria-del-borgo"
+        - img [ref=f27e14]
+      - button "Esci" [ref=f27e18] [cursor=pointer]:
+        - img [ref=f27e19]
+    - navigation [ref=f27e22]:
+      - link "Dashboard" [ref=f27e23] [cursor=pointer]:
+        - /url: "#/area-esercente"
+      - link "Vetrina" [ref=f27e24] [cursor=pointer]:
+        - /url: "#/area-esercente/vetrina"
+      - link "Offerte" [ref=f27e25] [cursor=pointer]:
+        - /url: "#/area-esercente/offerte"
+      - link "Post" [ref=f27e26] [cursor=pointer]:
+        - /url: "#/area-esercente/post"
+      - link "Ordini 1" [ref=f27e65] [cursor=pointer]:
+        - /url: "#/area-esercente/ordini"
+        - text: Ordini
+        - generic [ref=f27e28]: "1"
+      - link "Strumenti" [ref=f27e29] [cursor=pointer]:
+        - /url: "#/area-esercente/strumenti"
+      - link "Abbonamento & plugin" [ref=f27e30] [cursor=pointer]:
+        - /url: "#/area-esercente/abbonamento"
+  - main [ref=f27e31]:
+    - text: Promozioni con codice in cassa
+    - heading "Le tue offerte" [level=1] [ref=f27e67]
+    - paragraph [ref=f27e68]: Appena pubblicate compaiono in home e nella tua pagina.
+    - generic [ref=f27e126]:
+      - text: 🎉 Offerta pubblicata con codice
+      - code [ref=f27e127]: PANET65
+      - text: — è già visibile ai cittadini in Home e nella sezione Offerte.
+    - generic [ref=f27e69]:
+      - generic [ref=f27e70]:
+        - heading "Attive (3)" [level=2] [ref=f27e128]
+        - button "Nuova offerta" [ref=f27e72] [cursor=pointer]:
+          - img [ref=f27e73]
+          - text: Nuova offerta
+      - generic [ref=f27e129]:
+        - generic [ref=f27e131]:
+          - 'heading "Weekend del pane: pagnotta −20%" [level=3] [ref=f27e132]'
+          - paragraph [ref=f27e133]: Codice PANET65 · fino a sab 18 lug
+        - generic [ref=f27e134]: −20%
+        - 'button "Elimina Weekend del pane: pagnotta −20%" [ref=f27e135] [cursor=pointer]':
+          - img [ref=f27e136]
+      - generic [ref=f27e75]:
+        - generic [ref=f27e77]:
+          - 'heading "Dalle 17: −30% sul pane del giorno" [level=3] [ref=f27e78]'
+          - paragraph [ref=f27e79]: Codice PANE30 · fino a ven 24 lug
+        - generic [ref=f27e80]: −30%
+        - 'button "Elimina Dalle 17: −30% sul pane del giorno" [ref=f27e81] [cursor=pointer]':
+          - img [ref=f27e82]
+      - generic [ref=f27e84]:
+        - generic [ref=f27e86]:
+          - heading "3×2 sui grissini stirati" [level=3] [ref=f27e87]
+          - paragraph [ref=f27e88]: Codice GRISS3X2 · fino a gio 16 lug
+        - generic [ref=f27e89]: 3×2
+        - button "Elimina 3×2 sui grissini stirati" [ref=f27e90] [cursor=pointer]:
+          - img [ref=f27e91]

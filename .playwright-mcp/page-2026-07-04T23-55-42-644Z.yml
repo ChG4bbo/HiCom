@@ -1,0 +1,75 @@
+- generic [ref=f26e3]:
+  - banner [ref=f26e4]:
+    - generic [ref=f26e5]:
+      - link "HiCom — home" [ref=f26e6] [cursor=pointer]:
+        - /url: "#/"
+        - generic [ref=f26e7]:
+          - img [ref=f26e8]
+          - generic [ref=f26e12]: HiCom
+      - generic [ref=f26e13]:
+        - img [ref=f26e14]
+        - text: ORBASSANO
+  - main [ref=f26e17]:
+    - generic [ref=f26e248]:
+      - img [ref=f26e334]
+      - heading "Ordine inviato!" [level=2] [ref=f26e336]
+      - paragraph [ref=f26e337]: Ritira da Panetteria del Borgo · 12:30 di oggi
+      - generic [ref=f26e338]: RIT-1953
+      - paragraph [ref=f26e339]: Mostra questo codice al ritiro
+      - generic [ref=f26e340]:
+        - generic [ref=f26e343]: Ordine ricevuto
+        - generic [ref=f26e346]: In preparazione
+        - generic [ref=f26e349]: Pronto per il ritiro
+        - generic [ref=f26e352]: Ritirato
+      - paragraph [ref=f26e353]: Lo stato si aggiorna in tempo reale quando l'esercente prepara l'ordine.
+      - generic [ref=f26e354]:
+        - link "Torna alla vetrina" [ref=f26e355] [cursor=pointer]:
+          - /url: "#/esercente/panetteria-del-borgo"
+        - link "Vai alla home" [ref=f26e356] [cursor=pointer]:
+          - /url: "#/"
+  - contentinfo [ref=f26e161]:
+    - generic [ref=f26e162]:
+      - generic [ref=f26e163]:
+        - generic [ref=f26e164]:
+          - img [ref=f26e165]
+          - generic [ref=f26e169]: HiCom
+        - paragraph [ref=f26e170]: "La rete del commercio locale di Orbassano: ogni attività una vetrina, ai cittadini le offerte migliori, al territorio il valore che resta."
+      - generic [ref=f26e171]:
+        - heading "Per i cittadini" [level=4] [ref=f26e172]
+        - generic [ref=f26e173]:
+          - link "Tutti gli esercenti" [ref=f26e174] [cursor=pointer]:
+            - /url: "#/esplora"
+          - link "Offerte attive" [ref=f26e175] [cursor=pointer]:
+            - /url: "#/offerte"
+          - link "Le tue chat" [ref=f26e176] [cursor=pointer]:
+            - /url: "#/chat"
+      - generic [ref=f26e177]:
+        - heading "Per gli esercenti" [level=4] [ref=f26e178]
+        - generic [ref=f26e179]:
+          - link "Accedi alla tua area" [ref=f26e180] [cursor=pointer]:
+            - /url: "#/login"
+          - link "Entra nella rete — da €12/mese" [ref=f26e181] [cursor=pointer]:
+            - /url: "#/login"
+          - link "Amministrazione" [ref=f26e182] [cursor=pointer]:
+            - /url: "#/admin"
+      - generic [ref=f26e183]:
+        - generic [ref=f26e184]: HICOM · PROTOTIPO DIMOSTRATIVO
+        - generic [ref=f26e185]: UN PROGETTO DI GABRIELE CHIBBARO
+        - button "RESET DEMO" [ref=f26e186] [cursor=pointer]
+  - navigation "Navigazione principale" [ref=f26e187]:
+    - link "Home" [ref=f26e188] [cursor=pointer]:
+      - /url: "#/"
+      - img [ref=f26e189]
+      - text: Home
+    - link "Esplora" [ref=f26e192] [cursor=pointer]:
+      - /url: "#/esplora"
+      - img [ref=f26e193]
+      - text: Esplora
+    - link "Offerte" [ref=f26e196] [cursor=pointer]:
+      - /url: "#/offerte"
+      - img [ref=f26e197]
+      - text: Offerte
+    - link "Chat" [ref=f26e199] [cursor=pointer]:
+      - /url: "#/chat"
+      - img [ref=f26e200]
+      - text: Chat

@@ -93,7 +93,7 @@ export function CitizenLayout() {
         </NavLink>
       </nav>
 
-      <InstallBanner />
+      {pathname === '/' && <InstallBanner />}
     </div>
   )
 }

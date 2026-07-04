@@ -1,0 +1,242 @@
+- generic [ref=f27e138]:
+  - banner [ref=f27e139]:
+    - generic [ref=f27e140]:
+      - link "HiCom — home" [ref=f27e141] [cursor=pointer]:
+        - /url: "#/"
+        - generic [ref=f27e142]:
+          - img [ref=f27e143]
+          - generic [ref=f27e147]: HiCom
+      - generic [ref=f27e148]:
+        - img [ref=f27e149]
+        - text: ORBASSANO
+  - main [ref=f27e152]:
+    - generic [ref=f27e153]:
+      - generic [ref=f27e155]:
+        - text: "Mostra il codice in cassa: nessuna registrazione"
+        - heading "Tutte le offerte del territorio" [level=2] [ref=f27e156]
+      - generic [ref=f27e157]:
+        - button "Tutte" [ref=f27e158] [cursor=pointer]
+        - button "🍕 Ristorazione" [ref=f27e159] [cursor=pointer]
+        - button "☕ Bar & Caffè" [ref=f27e160] [cursor=pointer]
+        - button "🥖 Alimentari" [ref=f27e161] [cursor=pointer]
+        - button "💈 Bellezza & Cura" [ref=f27e162] [cursor=pointer]
+        - button "💊 Salute" [ref=f27e163] [cursor=pointer]
+        - button "📐 Servizi & Studi" [ref=f27e164] [cursor=pointer]
+        - button "🔧 Artigiani & Casa" [ref=f27e165] [cursor=pointer]
+        - button "🛍️ Negozi" [ref=f27e166] [cursor=pointer]
+    - generic [ref=f27e167]:
+      - article [ref=f27e168]:
+        - link "Panetteria del Borgo" [ref=f27e169] [cursor=pointer]:
+          - /url: "#/esercente/panetteria-del-borgo"
+          - generic [ref=f27e170]: −20%
+        - generic [ref=f27e171]:
+          - 'link "Panetteria del Borgo Weekend del pane: pagnotta −20%" [ref=f27e172] [cursor=pointer]':
+            - /url: "#/esercente/panetteria-del-borgo"
+            - text: Panetteria del Borgo
+            - 'heading "Weekend del pane: pagnotta −20%" [level=3] [ref=f27e173]'
+          - paragraph [ref=f27e174]: Valida fino a sab 18 lug
+        - generic [ref=f27e175]:
+          - generic [ref=f27e176]: Codice sconto
+          - button "Mostra codice" [ref=f27e177] [cursor=pointer]
+      - article [ref=f27e178]:
+        - link "Panetteria del Borgo" [ref=f27e179] [cursor=pointer]:
+          - /url: "#/esercente/panetteria-del-borgo"
+          - generic [ref=f27e180]: −30%
+        - generic [ref=f27e181]:
+          - 'link "Panetteria del Borgo Dalle 17: −30% sul pane del giorno" [ref=f27e182] [cursor=pointer]':
+            - /url: "#/esercente/panetteria-del-borgo"
+            - text: Panetteria del Borgo
+            - 'heading "Dalle 17: −30% sul pane del giorno" [level=3] [ref=f27e183]'
+          - paragraph [ref=f27e184]: Valida fino a ven 24 lug
+        - generic [ref=f27e185]:
+          - generic [ref=f27e186]: Codice sconto
+          - button "Mostra codice" [ref=f27e187] [cursor=pointer]
+      - article [ref=f27e188]:
+        - link "Panetteria del Borgo" [ref=f27e189] [cursor=pointer]:
+          - /url: "#/esercente/panetteria-del-borgo"
+          - generic [ref=f27e190]: 3×2
+        - generic [ref=f27e191]:
+          - link "Panetteria del Borgo 3×2 sui grissini stirati" [ref=f27e192] [cursor=pointer]:
+            - /url: "#/esercente/panetteria-del-borgo"
+            - text: Panetteria del Borgo
+            - heading "3×2 sui grissini stirati" [level=3] [ref=f27e193]
+          - paragraph [ref=f27e194]: Valida fino a gio 16 lug
+        - generic [ref=f27e195]:
+          - generic [ref=f27e196]: Codice sconto
+          - button "Mostra codice" [ref=f27e197] [cursor=pointer]
+      - article [ref=f27e198]:
+        - link "Pizzeria La Torre" [ref=f27e199] [cursor=pointer]:
+          - /url: "#/esercente/pizzeria-la-torre"
+          - generic [ref=f27e200]: €5
+        - generic [ref=f27e201]:
+          - 'link "Pizzeria La Torre Martedì pizza: Margherita a €5" [ref=f27e202] [cursor=pointer]':
+            - /url: "#/esercente/pizzeria-la-torre"
+            - text: Pizzeria La Torre
+            - 'heading "Martedì pizza: Margherita a €5" [level=3] [ref=f27e203]'
+          - paragraph [ref=f27e204]: Valida fino a lun 3 ago
+        - generic [ref=f27e205]:
+          - generic [ref=f27e206]: Codice sconto
+          - button "Mostra codice" [ref=f27e207] [cursor=pointer]
+      - article [ref=f27e208]:
+        - link "Pizzeria La Torre" [ref=f27e209] [cursor=pointer]:
+          - /url: "#/esercente/pizzeria-la-torre"
+          - generic [ref=f27e210]: €28
+        - generic [ref=f27e211]:
+          - 'link "Pizzeria La Torre Menu famiglia: 2 pizze + 2 baby €28" [ref=f27e212] [cursor=pointer]':
+            - /url: "#/esercente/pizzeria-la-torre"
+            - text: Pizzeria La Torre
+            - 'heading "Menu famiglia: 2 pizze + 2 baby €28" [level=3] [ref=f27e213]'
+          - paragraph [ref=f27e214]: Valida fino a mer 22 lug
+        - generic [ref=f27e215]:
+          - generic [ref=f27e216]: Codice sconto
+          - button "Mostra codice" [ref=f27e217] [cursor=pointer]
+      - article [ref=f27e218]:
+        - link "Caffè Centrale" [ref=f27e219] [cursor=pointer]:
+          - /url: "#/esercente/caffe-centrale"
+          - generic [ref=f27e220]: €2.50
+        - generic [ref=f27e221]:
+          - link "Caffè Centrale Colazione completa €2.50 prima delle 9" [ref=f27e222] [cursor=pointer]:
+            - /url: "#/esercente/caffe-centrale"
+            - text: Caffè Centrale
+            - heading "Colazione completa €2.50 prima delle 9" [level=3] [ref=f27e223]
+          - paragraph [ref=f27e224]: Valida fino a mer 29 lug
+        - generic [ref=f27e225]:
+          - generic [ref=f27e226]: Codice sconto
+          - button "Mostra codice" [ref=f27e227] [cursor=pointer]
+      - article [ref=f27e228]:
+        - link "Studio Dentistico Sorriso" [ref=f27e229] [cursor=pointer]:
+          - /url: "#/esercente/studio-dentistico-sorriso"
+          - generic [ref=f27e230]: Gratis
+        - generic [ref=f27e231]:
+          - link "Studio Dentistico Sorriso Prima visita + panoramica gratuita" [ref=f27e232] [cursor=pointer]:
+            - /url: "#/esercente/studio-dentistico-sorriso"
+            - text: Studio Dentistico Sorriso
+            - heading "Prima visita + panoramica gratuita" [level=3] [ref=f27e233]
+          - paragraph [ref=f27e234]: Valida fino a dom 19 lug
+        - generic [ref=f27e235]:
+          - generic [ref=f27e236]: Codice sconto
+          - button "Mostra codice" [ref=f27e237] [cursor=pointer]
+      - article [ref=f27e238]:
+        - link "StileLibero Parrucchieri" [ref=f27e239] [cursor=pointer]:
+          - /url: "#/esercente/stilelibero-parrucchieri"
+          - generic [ref=f27e240]: −20%
+        - generic [ref=f27e241]:
+          - 'link "StileLibero Parrucchieri Giovedì sera: taglio −20% under 30" [ref=f27e242] [cursor=pointer]':
+            - /url: "#/esercente/stilelibero-parrucchieri"
+            - text: StileLibero Parrucchieri
+            - 'heading "Giovedì sera: taglio −20% under 30" [level=3] [ref=f27e243]'
+          - paragraph [ref=f27e244]: Valida fino a dom 26 lug
+        - generic [ref=f27e245]:
+          - generic [ref=f27e246]: Codice sconto
+          - button "Mostra codice" [ref=f27e247] [cursor=pointer]
+      - article [ref=f27e248]:
+        - link "Ferramenta Beltramo" [ref=f27e249] [cursor=pointer]:
+          - /url: "#/esercente/ferramenta-beltramo"
+          - generic [ref=f27e250]: −10%
+        - generic [ref=f27e251]:
+          - link "Ferramenta Beltramo Giardinaggio −10% tutto il mese" [ref=f27e252] [cursor=pointer]:
+            - /url: "#/esercente/ferramenta-beltramo"
+            - text: Ferramenta Beltramo
+            - heading "Giardinaggio −10% tutto il mese" [level=3] [ref=f27e253]
+          - paragraph [ref=f27e254]: Valida fino a sab 1 ago
+        - generic [ref=f27e255]:
+          - generic [ref=f27e256]: Codice sconto
+          - button "Mostra codice" [ref=f27e257] [cursor=pointer]
+      - article [ref=f27e258]:
+        - link "Chiara Moda" [ref=f27e259] [cursor=pointer]:
+          - /url: "#/esercente/chiara-moda"
+          - generic [ref=f27e260]: −15%
+        - generic [ref=f27e261]:
+          - 'link "Chiara Moda Nuova collezione: −15% sul primo capo" [ref=f27e262] [cursor=pointer]':
+            - /url: "#/esercente/chiara-moda"
+            - text: Chiara Moda
+            - 'heading "Nuova collezione: −15% sul primo capo" [level=3] [ref=f27e263]'
+          - paragraph [ref=f27e264]: Valida fino a lun 20 lug
+        - generic [ref=f27e265]:
+          - generic [ref=f27e266]: Codice sconto
+          - button "Mostra codice" [ref=f27e267] [cursor=pointer]
+      - article [ref=f27e268]:
+        - link "Farmacia San Giuseppe" [ref=f27e269] [cursor=pointer]:
+          - /url: "#/esercente/farmacia-san-giuseppe"
+          - generic [ref=f27e270]: Gratis
+        - generic [ref=f27e271]:
+          - 'link "Farmacia San Giuseppe Settimana della pelle: consulenza gratuita" [ref=f27e272] [cursor=pointer]':
+            - /url: "#/esercente/farmacia-san-giuseppe"
+            - text: Farmacia San Giuseppe
+            - 'heading "Settimana della pelle: consulenza gratuita" [level=3] [ref=f27e273]'
+          - paragraph [ref=f27e274]: Valida fino a lun 13 lug
+        - generic [ref=f27e275]:
+          - generic [ref=f27e276]: Codice sconto
+          - button "Mostra codice" [ref=f27e277] [cursor=pointer]
+      - article [ref=f27e278]:
+        - link "Fioraio Petali" [ref=f27e279] [cursor=pointer]:
+          - /url: "#/esercente/fioraio-petali"
+          - generic [ref=f27e280]: −15%
+        - generic [ref=f27e281]:
+          - link "Fioraio Petali Bouquet di stagione −15% nel weekend" [ref=f27e282] [cursor=pointer]:
+            - /url: "#/esercente/fioraio-petali"
+            - text: Fioraio Petali
+            - heading "Bouquet di stagione −15% nel weekend" [level=3] [ref=f27e283]
+          - paragraph [ref=f27e284]: Valida fino a mer 15 lug
+        - generic [ref=f27e285]:
+          - generic [ref=f27e286]: Codice sconto
+          - button "Mostra codice" [ref=f27e287] [cursor=pointer]
+      - article [ref=f27e288]:
+        - link "Osteria del Parco" [ref=f27e289] [cursor=pointer]:
+          - /url: "#/esercente/osteria-del-parco"
+          - generic [ref=f27e290]: €15
+        - generic [ref=f27e291]:
+          - 'link "Osteria del Parco Pranzo feriale: menu del giorno €15" [ref=f27e292] [cursor=pointer]':
+            - /url: "#/esercente/osteria-del-parco"
+            - text: Osteria del Parco
+            - 'heading "Pranzo feriale: menu del giorno €15" [level=3] [ref=f27e293]'
+          - paragraph [ref=f27e294]: Valida fino a gio 30 lug
+        - generic [ref=f27e295]:
+          - generic [ref=f27e296]: Codice sconto
+          - button "Mostra codice" [ref=f27e297] [cursor=pointer]
+  - contentinfo [ref=f27e298]:
+    - generic [ref=f27e299]:
+      - generic [ref=f27e300]:
+        - generic [ref=f27e301]:
+          - img [ref=f27e302]
+          - generic [ref=f27e306]: HiCom
+        - paragraph [ref=f27e307]: "La rete del commercio locale di Orbassano: ogni attività una vetrina, ai cittadini le offerte migliori, al territorio il valore che resta."
+      - generic [ref=f27e308]:
+        - heading "Per i cittadini" [level=4] [ref=f27e309]
+        - generic [ref=f27e310]:
+          - link "Tutti gli esercenti" [ref=f27e311] [cursor=pointer]:
+            - /url: "#/esplora"
+          - link "Offerte attive" [ref=f27e312] [cursor=pointer]:
+            - /url: "#/offerte"
+          - link "Le tue chat" [ref=f27e313] [cursor=pointer]:
+            - /url: "#/chat"
+      - generic [ref=f27e314]:
+        - heading "Per gli esercenti" [level=4] [ref=f27e315]
+        - generic [ref=f27e316]:
+          - link "Accedi alla tua area" [ref=f27e317] [cursor=pointer]:
+            - /url: "#/login"
+          - link "Entra nella rete — da €12/mese" [ref=f27e318] [cursor=pointer]:
+            - /url: "#/login"
+          - link "Amministrazione" [ref=f27e319] [cursor=pointer]:
+            - /url: "#/admin"
+      - generic [ref=f27e320]:
+        - generic [ref=f27e321]: HICOM · PROTOTIPO DIMOSTRATIVO
+        - generic [ref=f27e322]: UN PROGETTO DI GABRIELE CHIBBARO
+        - button "RESET DEMO" [ref=f27e323] [cursor=pointer]
+  - navigation "Navigazione principale" [ref=f27e324]:
+    - link "Home" [ref=f27e325] [cursor=pointer]:
+      - /url: "#/"
+      - img [ref=f27e326]
+      - text: Home
+    - link "Esplora" [ref=f27e329] [cursor=pointer]:
+      - /url: "#/esplora"
+      - img [ref=f27e330]
+      - text: Esplora
+    - link "Offerte" [ref=f27e333] [cursor=pointer]:
+      - /url: "#/offerte"
+      - img [ref=f27e334]
+      - text: Offerte
+    - link "Chat" [ref=f27e336] [cursor=pointer]:
+      - /url: "#/chat"
+      - img [ref=f27e337]
+      - text: Chat

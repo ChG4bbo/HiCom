@@ -1,0 +1,139 @@
+- generic [ref=f26e3]:
+  - banner [ref=f26e4]:
+    - generic [ref=f26e5]:
+      - link "HiCom — home" [ref=f26e6] [cursor=pointer]:
+        - /url: "#/"
+        - generic [ref=f26e7]:
+          - img [ref=f26e8]
+          - generic [ref=f26e12]: HiCom
+      - generic [ref=f26e13]:
+        - img [ref=f26e14]
+        - text: ORBASSANO
+  - main [ref=f26e17]:
+    - generic [ref=f26e247]:
+      - generic [ref=f26e248]:
+        - link "Indietro" [ref=f26e249] [cursor=pointer]:
+          - /url: "#/esercente/panetteria-del-borgo"
+          - img [ref=f26e250]
+        - generic [ref=f26e252]: PB
+        - generic [ref=f26e253]:
+          - heading "Ordina & ritira" [level=1] [ref=f26e254]
+          - paragraph [ref=f26e255]: Panetteria del Borgo · prepara e passi a ritirare
+      - generic [ref=f26e256]:
+        - generic [ref=f26e257]: 1 · Cosa vuoi ordinare?
+        - generic [ref=f26e258]:
+          - generic [ref=f26e260]:
+            - heading "Pane di grano duro" [level=3] [ref=f26e261]
+            - generic [ref=f26e262]: €4,20 al kg
+          - generic [ref=f26e263]:
+            - button "Meno" [disabled] [ref=f26e264] [cursor=pointer]: −
+            - generic [ref=f26e265]: "0"
+            - button "Più" [ref=f26e266] [cursor=pointer]: +
+        - generic [ref=f26e267]:
+          - generic [ref=f26e269]:
+            - heading "Focaccia all’olio" [level=3] [ref=f26e270]
+            - generic [ref=f26e271]: €12 al kg
+          - generic [ref=f26e272]:
+            - button "Meno" [disabled] [ref=f26e273] [cursor=pointer]: −
+            - generic [ref=f26e274]: "0"
+            - button "Più" [ref=f26e275] [cursor=pointer]: +
+        - generic [ref=f26e276]:
+          - generic [ref=f26e278]:
+            - heading "Grissini stirati a mano" [level=3] [ref=f26e279]
+            - generic [ref=f26e280]: €16 al kg
+          - generic [ref=f26e281]:
+            - button "Meno" [disabled] [ref=f26e282] [cursor=pointer]: −
+            - generic [ref=f26e283]: "0"
+            - button "Più" [ref=f26e284] [cursor=pointer]: +
+        - generic [ref=f26e285]:
+          - generic [ref=f26e287]:
+            - heading "Torta di nocciole" [level=3] [ref=f26e288]
+            - generic [ref=f26e289]: €18 intera
+          - generic [ref=f26e290]:
+            - button "Meno" [disabled] [ref=f26e291] [cursor=pointer]: −
+            - generic [ref=f26e292]: "0"
+            - button "Più" [ref=f26e293] [cursor=pointer]: +
+        - generic [ref=f26e294]:
+          - generic [ref=f26e296]:
+            - heading "Biscotti di meliga" [level=3] [ref=f26e297]
+            - generic [ref=f26e298]: €14 al kg
+          - generic [ref=f26e299]:
+            - button "Meno" [disabled] [ref=f26e300] [cursor=pointer]: −
+            - generic [ref=f26e301]: "0"
+            - button "Più" [ref=f26e302] [cursor=pointer]: +
+        - generic [ref=f26e303]:
+          - generic [ref=f26e305]:
+            - heading "Pizza al padellino" [level=3] [ref=f26e306]
+            - generic [ref=f26e307]: €3,50 a trancio
+          - generic [ref=f26e308]:
+            - button "Meno" [disabled] [ref=f26e309] [cursor=pointer]: −
+            - generic [ref=f26e310]: "0"
+            - button "Più" [ref=f26e311] [cursor=pointer]: +
+      - generic [ref=f26e312]:
+        - generic [ref=f26e313]: 2 · Quando passi a ritirare? (oggi)
+        - generic [ref=f26e314]:
+          - button "10:00" [ref=f26e315] [cursor=pointer]
+          - button "11:00" [ref=f26e316] [cursor=pointer]
+          - button "12:00" [ref=f26e317] [cursor=pointer]
+          - button "12:30" [ref=f26e318] [cursor=pointer]
+          - button "16:30" [ref=f26e319] [cursor=pointer]
+          - button "17:30" [ref=f26e320] [cursor=pointer]
+          - button "18:30" [ref=f26e321] [cursor=pointer]
+      - generic [ref=f26e322]:
+        - generic [ref=f26e323]: 3 · I tuoi dati
+        - generic [ref=f26e324]:
+          - generic [ref=f26e325]: Nome e cognome
+          - textbox "Nome e cognome" [ref=f26e326]:
+            - /placeholder: Mario Rossi
+        - generic [ref=f26e327]:
+          - generic [ref=f26e328]: Telefono
+          - textbox "Telefono" [ref=f26e329]:
+            - /placeholder: 333 1234567
+      - button "Invia l'ordine" [disabled]
+      - paragraph [ref=f26e330]: Paghi in negozio al ritiro. L'esercente conferma la disponibilità.
+  - contentinfo [ref=f26e161]:
+    - generic [ref=f26e162]:
+      - generic [ref=f26e163]:
+        - generic [ref=f26e164]:
+          - img [ref=f26e165]
+          - generic [ref=f26e169]: HiCom
+        - paragraph [ref=f26e170]: "La rete del commercio locale di Orbassano: ogni attività una vetrina, ai cittadini le offerte migliori, al territorio il valore che resta."
+      - generic [ref=f26e171]:
+        - heading "Per i cittadini" [level=4] [ref=f26e172]
+        - generic [ref=f26e173]:
+          - link "Tutti gli esercenti" [ref=f26e174] [cursor=pointer]:
+            - /url: "#/esplora"
+          - link "Offerte attive" [ref=f26e175] [cursor=pointer]:
+            - /url: "#/offerte"
+          - link "Le tue chat" [ref=f26e176] [cursor=pointer]:
+            - /url: "#/chat"
+      - generic [ref=f26e177]:
+        - heading "Per gli esercenti" [level=4] [ref=f26e178]
+        - generic [ref=f26e179]:
+          - link "Accedi alla tua area" [ref=f26e180] [cursor=pointer]:
+            - /url: "#/login"
+          - link "Entra nella rete — da €12/mese" [ref=f26e181] [cursor=pointer]:
+            - /url: "#/login"
+          - link "Amministrazione" [ref=f26e182] [cursor=pointer]:
+            - /url: "#/admin"
+      - generic [ref=f26e183]:
+        - generic [ref=f26e184]: HICOM · PROTOTIPO DIMOSTRATIVO
+        - generic [ref=f26e185]: UN PROGETTO DI GABRIELE CHIBBARO
+        - button "RESET DEMO" [ref=f26e186] [cursor=pointer]
+  - navigation "Navigazione principale" [ref=f26e187]:
+    - link "Home" [ref=f26e188] [cursor=pointer]:
+      - /url: "#/"
+      - img [ref=f26e189]
+      - text: Home
+    - link "Esplora" [ref=f26e192] [cursor=pointer]:
+      - /url: "#/esplora"
+      - img [ref=f26e193]
+      - text: Esplora
+    - link "Offerte" [ref=f26e196] [cursor=pointer]:
+      - /url: "#/offerte"
+      - img [ref=f26e197]
+      - text: Offerte
+    - link "Chat" [ref=f26e199] [cursor=pointer]:
+      - /url: "#/chat"
+      - img [ref=f26e200]
+      - text: Chat

@@ -1,0 +1,202 @@
+- generic [ref=f27e339]:
+  - banner [ref=f27e340]:
+    - generic [ref=f27e341]:
+      - generic [ref=f27e342]:
+        - img [ref=f27e343]
+        - generic [ref=f27e347]: HiCom
+      - generic [ref=f27e348]:
+        - text: Pannello di amministrazione
+        - strong [ref=f27e349]: Rete di Orbassano
+      - link "App" [ref=f27e350] [cursor=pointer]:
+        - /url: "#/"
+        - img [ref=f27e351]
+        - text: App
+  - main [ref=f27e353]:
+    - text: La rete, in numeri
+    - heading "Amministrazione HiCom" [level=1] [ref=f27e354]
+    - paragraph [ref=f27e355]: Stato degli esercenti, abbonamenti e canoni della rete.
+    - generic [ref=f27e356]:
+      - generic [ref=f27e357]:
+        - generic [ref=f27e358]: Esercenti attivi
+        - generic [ref=f27e359]: "11"
+        - generic [ref=f27e360]: su 11 nella rete
+      - generic [ref=f27e361]:
+        - generic [ref=f27e362]: Canone mensile totale
+        - generic [ref=f27e363]: €214
+        - generic [ref=f27e364]: €2568/anno
+      - generic [ref=f27e365]:
+        - generic [ref=f27e366]: Da canoni base
+        - generic [ref=f27e367]: €132
+        - generic [ref=f27e368]: 11 × €12
+      - generic [ref=f27e369]:
+        - generic [ref=f27e370]: Da plugin & servizi
+        - generic [ref=f27e371]: €82
+        - generic [ref=f27e372]: plugin €52 · curata €30
+    - generic [ref=f27e373]:
+      - heading "Esercenti (11)" [level=2] [ref=f27e375]
+      - table [ref=f27e376]:
+        - rowgroup [ref=f27e377]:
+          - row "Attività Categoria Piano €/mese Stato" [ref=f27e378]:
+            - columnheader "Attività" [ref=f27e379]
+            - columnheader "Categoria" [ref=f27e380]
+            - columnheader "Piano" [ref=f27e381]
+            - columnheader "€/mese" [ref=f27e382]
+            - columnheader "Stato" [ref=f27e383]
+        - rowgroup [ref=f27e384]:
+          - row "Panetteria del Borgo Alimentari Base Ritiri & Ordini 1 strumenti €17 Panetteria del Borgo attivo" [ref=f27e385]:
+            - cell "Panetteria del Borgo" [ref=f27e386]:
+              - link "Panetteria del Borgo" [ref=f27e387] [cursor=pointer]:
+                - /url: "#/esercente/panetteria-del-borgo"
+                - generic [ref=f27e388]: PB
+                - strong [ref=f27e389]: Panetteria del Borgo
+            - cell "Alimentari" [ref=f27e390]
+            - cell "Base Ritiri & Ordini 1 strumenti" [ref=f27e391]:
+              - generic [ref=f27e392]:
+                - generic [ref=f27e393]: Base
+                - generic [ref=f27e394]: Ritiri & Ordini
+                - generic [ref=f27e395]: 1 strumenti
+            - cell "€17" [ref=f27e396]
+            - cell "Panetteria del Borgo attivo" [ref=f27e397]:
+              - switch "Panetteria del Borgo attivo" [checked] [ref=f27e398] [cursor=pointer]
+          - row "Pizzeria La Torre Ristorazione Base Bundle settore €22 Pizzeria La Torre attivo" [ref=f27e399]:
+            - cell "Pizzeria La Torre" [ref=f27e400]:
+              - link "Pizzeria La Torre" [ref=f27e401] [cursor=pointer]:
+                - /url: "#/esercente/pizzeria-la-torre"
+                - generic [ref=f27e402]: PL
+                - strong [ref=f27e403]: Pizzeria La Torre
+            - cell "Ristorazione" [ref=f27e404]
+            - cell "Base Bundle settore" [ref=f27e405]:
+              - generic [ref=f27e406]:
+                - generic [ref=f27e407]: Base
+                - generic [ref=f27e408]: Bundle settore
+            - cell "€22" [ref=f27e409]
+            - cell "Pizzeria La Torre attivo" [ref=f27e410]:
+              - switch "Pizzeria La Torre attivo" [checked] [ref=f27e411] [cursor=pointer]
+          - row "Caffè Centrale Bar & Caffè Base Vetrina+ €15 Caffè Centrale attivo" [ref=f27e412]:
+            - cell "Caffè Centrale" [ref=f27e413]:
+              - link "Caffè Centrale" [ref=f27e414] [cursor=pointer]:
+                - /url: "#/esercente/caffe-centrale"
+                - generic [ref=f27e415]: CC
+                - strong [ref=f27e416]: Caffè Centrale
+            - cell "Bar & Caffè" [ref=f27e417]
+            - cell "Base Vetrina+" [ref=f27e418]:
+              - generic [ref=f27e419]:
+                - generic [ref=f27e420]: Base
+                - generic [ref=f27e421]: Vetrina+
+            - cell "€15" [ref=f27e422]
+            - cell "Caffè Centrale attivo" [ref=f27e423]:
+              - switch "Caffè Centrale attivo" [checked] [ref=f27e424] [cursor=pointer]
+          - row "Studio Dentistico Sorriso Salute Base Prenotazioni Chat cliente 1 strumenti €22 Studio Dentistico Sorriso attivo" [ref=f27e425]:
+            - cell "Studio Dentistico Sorriso" [ref=f27e426]:
+              - link "Studio Dentistico Sorriso" [ref=f27e427] [cursor=pointer]:
+                - /url: "#/esercente/studio-dentistico-sorriso"
+                - generic [ref=f27e428]: SD
+                - strong [ref=f27e429]: Studio Dentistico Sorriso
+            - cell "Salute" [ref=f27e430]
+            - cell "Base Prenotazioni Chat cliente 1 strumenti" [ref=f27e431]:
+              - generic [ref=f27e432]:
+                - generic [ref=f27e433]: Base
+                - generic [ref=f27e434]: Prenotazioni
+                - generic [ref=f27e435]: Chat cliente
+                - generic [ref=f27e436]: 1 strumenti
+            - cell "€22" [ref=f27e437]
+            - cell "Studio Dentistico Sorriso attivo" [ref=f27e438]:
+              - switch "Studio Dentistico Sorriso attivo" [checked] [ref=f27e439] [cursor=pointer]
+          - row "StileLibero Parrucchieri Bellezza & Cura Base Prenotazioni €18 StileLibero Parrucchieri attivo" [ref=f27e440]:
+            - cell "StileLibero Parrucchieri" [ref=f27e441]:
+              - link "StileLibero Parrucchieri" [ref=f27e442] [cursor=pointer]:
+                - /url: "#/esercente/stilelibero-parrucchieri"
+                - generic [ref=f27e443]: SP
+                - strong [ref=f27e444]: StileLibero Parrucchieri
+            - cell "Bellezza & Cura" [ref=f27e445]
+            - cell "Base Prenotazioni" [ref=f27e446]:
+              - generic [ref=f27e447]:
+                - generic [ref=f27e448]: Base
+                - generic [ref=f27e449]: Prenotazioni
+            - cell "€18" [ref=f27e450]
+            - cell "StileLibero Parrucchieri attivo" [ref=f27e451]:
+              - switch "StileLibero Parrucchieri attivo" [checked] [ref=f27e452] [cursor=pointer]
+          - row "Ferramenta Beltramo Artigiani & Casa Base 1 strumenti €12 Ferramenta Beltramo attivo" [ref=f27e453]:
+            - cell "Ferramenta Beltramo" [ref=f27e454]:
+              - link "Ferramenta Beltramo" [ref=f27e455] [cursor=pointer]:
+                - /url: "#/esercente/ferramenta-beltramo"
+                - generic [ref=f27e456]: FB
+                - strong [ref=f27e457]: Ferramenta Beltramo
+            - cell "Artigiani & Casa" [ref=f27e458]
+            - cell "Base 1 strumenti" [ref=f27e459]:
+              - generic [ref=f27e460]:
+                - generic [ref=f27e461]: Base
+                - generic [ref=f27e462]: 1 strumenti
+            - cell "€12" [ref=f27e463]
+            - cell "Ferramenta Beltramo attivo" [ref=f27e464]:
+              - switch "Ferramenta Beltramo attivo" [checked] [ref=f27e465] [cursor=pointer]
+          - row "Chiara Moda Negozi Base Chat cliente Vetrina+ 1 strumenti €19 Chiara Moda attivo" [ref=f27e466]:
+            - cell "Chiara Moda" [ref=f27e467]:
+              - link "Chiara Moda" [ref=f27e468] [cursor=pointer]:
+                - /url: "#/esercente/chiara-moda"
+                - generic [ref=f27e469]: CM
+                - strong [ref=f27e470]: Chiara Moda
+            - cell "Negozi" [ref=f27e471]
+            - cell "Base Chat cliente Vetrina+ 1 strumenti" [ref=f27e472]:
+              - generic [ref=f27e473]:
+                - generic [ref=f27e474]: Base
+                - generic [ref=f27e475]: Chat cliente
+                - generic [ref=f27e476]: Vetrina+
+                - generic [ref=f27e477]: 1 strumenti
+            - cell "€19" [ref=f27e478]
+            - cell "Chiara Moda attivo" [ref=f27e479]:
+              - switch "Chiara Moda attivo" [checked] [ref=f27e480] [cursor=pointer]
+          - row "Farmacia San Giuseppe Salute Base Ritiri & Ordini €17 Farmacia San Giuseppe attivo" [ref=f27e481]:
+            - cell "Farmacia San Giuseppe" [ref=f27e482]:
+              - link "Farmacia San Giuseppe" [ref=f27e483] [cursor=pointer]:
+                - /url: "#/esercente/farmacia-san-giuseppe"
+                - generic [ref=f27e484]: FS
+                - strong [ref=f27e485]: Farmacia San Giuseppe
+            - cell "Salute" [ref=f27e486]
+            - cell "Base Ritiri & Ordini" [ref=f27e487]:
+              - generic [ref=f27e488]:
+                - generic [ref=f27e489]: Base
+                - generic [ref=f27e490]: Ritiri & Ordini
+            - cell "€17" [ref=f27e491]
+            - cell "Farmacia San Giuseppe attivo" [ref=f27e492]:
+              - switch "Farmacia San Giuseppe attivo" [checked] [ref=f27e493] [cursor=pointer]
+          - row "Studio Tecnico Rinaldi Servizi & Studi Base €12 Studio Tecnico Rinaldi attivo" [ref=f27e494]:
+            - cell "Studio Tecnico Rinaldi" [ref=f27e495]:
+              - link "Studio Tecnico Rinaldi" [ref=f27e496] [cursor=pointer]:
+                - /url: "#/esercente/studio-tecnico-rinaldi"
+                - generic [ref=f27e497]: ST
+                - strong [ref=f27e498]: Studio Tecnico Rinaldi
+            - cell "Servizi & Studi" [ref=f27e499]
+            - cell "Base" [ref=f27e500]:
+              - generic [ref=f27e502]: Base
+            - cell "€12" [ref=f27e503]
+            - cell "Studio Tecnico Rinaldi attivo" [ref=f27e504]:
+              - switch "Studio Tecnico Rinaldi attivo" [checked] [ref=f27e505] [cursor=pointer]
+          - row "Fioraio Petali Negozi Base €12 Fioraio Petali attivo" [ref=f27e506]:
+            - cell "Fioraio Petali" [ref=f27e507]:
+              - link "Fioraio Petali" [ref=f27e508] [cursor=pointer]:
+                - /url: "#/esercente/fioraio-petali"
+                - generic [ref=f27e509]: FP
+                - strong [ref=f27e510]: Fioraio Petali
+            - cell "Negozi" [ref=f27e511]
+            - cell "Base" [ref=f27e512]:
+              - generic [ref=f27e514]: Base
+            - cell "€12" [ref=f27e515]
+            - cell "Fioraio Petali attivo" [ref=f27e516]:
+              - switch "Fioraio Petali attivo" [checked] [ref=f27e517] [cursor=pointer]
+          - row "Osteria del Parco Ristorazione Base Prenotazioni Vetrina Curata · Plus €48 Osteria del Parco attivo" [ref=f27e518]:
+            - cell "Osteria del Parco" [ref=f27e519]:
+              - link "Osteria del Parco" [ref=f27e520] [cursor=pointer]:
+                - /url: "#/esercente/osteria-del-parco"
+                - generic [ref=f27e521]: OP
+                - strong [ref=f27e522]: Osteria del Parco
+            - cell "Ristorazione" [ref=f27e523]
+            - cell "Base Prenotazioni Vetrina Curata · Plus" [ref=f27e524]:
+              - generic [ref=f27e525]:
+                - generic [ref=f27e526]: Base
+                - generic [ref=f27e527]: Prenotazioni
+                - generic [ref=f27e528]: Vetrina Curata · Plus
+            - cell "€48" [ref=f27e529]
+            - cell "Osteria del Parco attivo" [ref=f27e530]:
+              - switch "Osteria del Parco attivo" [checked] [ref=f27e531] [cursor=pointer]
+      - paragraph [ref=f27e532]: Sospendendo un esercente, la sua vetrina sparisce immediatamente da Home, Esplora e mappa.
