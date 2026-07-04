@@ -1,0 +1,18 @@
+[      82ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5174/node_modules/.vite/deps/chunk-XPR23Y44.js?v=a740b493:21548
+[     140ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5174/node_modules/.vite/deps/react-router-dom.js?v=a6d5f546:4424
+[     140ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5174/node_modules/.vite/deps/react-router-dom.js?v=a6d5f546:4424
+[  102220ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5174/src/pages/citizen/Esplora.jsx?t=1783191836308:0
+[  102221ms] [ERROR] [hmr] Failed to reload /src/pages/citizen/Esplora.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5174/@vite/client:175
+[  102224ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5174/src/pages/citizen/MerchantDetail.jsx?t=1783191836340:0
+[  102225ms] [ERROR] [hmr] Failed to reload /src/pages/citizen/MerchantDetail.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5174/@vite/client:175
+[  102226ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5174/src/pages/citizen/Prenota.jsx?t=1783191836342:0
+[  102227ms] [ERROR] [hmr] Failed to reload /src/pages/citizen/Prenota.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5174/@vite/client:175
+[  102229ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5174/src/pages/citizen/Ordina.jsx?t=1783191836343:0
+[  102230ms] [ERROR] [hmr] Failed to reload /src/pages/citizen/Ordina.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5174/@vite/client:175
+[  102232ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5174/src/pages/citizen/ChatList.jsx?t=1783191836344:0
+[  102233ms] [ERROR] [hmr] Failed to reload /src/pages/citizen/ChatList.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5174/@vite/client:175
+[  102236ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5174/src/pages/citizen/ChatThread.jsx?t=1783191836345:0
+[  102237ms] [ERROR] [hmr] Failed to reload /src/pages/citizen/ChatThread.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5174/@vite/client:175
+[  128797ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5174/src/App.jsx?t=1783191862519:0
+[  131007ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5174/src/App.jsx?t=1783191865095:0
+[  131148ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5174/src/App.jsx?t=1783191865184:0

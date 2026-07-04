@@ -229,8 +229,8 @@ export function buildMerchants() {
       description:
         'Studio odontoiatrico con sala dedicata ai bambini. Prenota la visita online e scrivici in chat per qualsiasi dubbio: rispondiamo in giornata.',
       address: 'Via Cavour 8, Orbassano',
-      lat: 45.0089,
-      lng: 7.5381,
+      lat: 45.0106,
+      lng: 7.5412,
       phone: '011 901 5560',
       hours: { lun: '09:00–19:00', mar: '09:00–19:00', mer: '09:00–19:00', gio: '09:00–19:00', ven: '09:00–17:00', sab: 'Su appuntamento', dom: 'Chiuso' },
       plugins: ['prenotazioni', 'chat'],
@@ -264,8 +264,8 @@ export function buildMerchants() {
       description:
         'Salone unisex con angolo head-spa. Prenota il tuo appuntamento da HiCom: niente telefonate, scegli tu il momento.',
       address: 'Via Nazario Sauro 15, Orbassano',
-      lat: 45.0068,
-      lng: 7.5389,
+      lat: 45.0044,
+      lng: 7.5405,
       phone: '011 901 6684',
       hours: { lun: 'Chiuso', mar: '09:00–19:00', mer: '09:00–19:00', gio: '09:00–21:00', ven: '09:00–19:00', sab: '08:30–18:00', dom: 'Chiuso' },
       plugins: ['prenotazioni'],
@@ -300,8 +300,8 @@ export function buildMerchants() {
       description:
         'Utensileria, colori, giardinaggio e duplicazione chiavi. Se non ce l’abbiamo, te lo ordiniamo: chiedi in negozio.',
       address: 'Strada Torino 41, Orbassano',
-      lat: 45.0102,
-      lng: 7.5411,
+      lat: 45.0129,
+      lng: 7.5441,
       phone: '011 901 7723',
       hours: HOURS_SHOP,
       plugins: [],
@@ -334,8 +334,8 @@ export function buildMerchants() {
       description:
         'Abbigliamento donna con selezione di piccoli brand italiani. Scrivici in chat per disponibilità e taglie: ti rispondiamo subito.',
       address: 'Via Roma 56, Orbassano',
-      lat: 45.0085,
-      lng: 7.5354,
+      lat: 45.0091,
+      lng: 7.533,
       phone: '011 901 8810',
       hours: { ...HOURS_SHOP, lun: '15:30–19:30' },
       plugins: ['chat', 'vetrinaplus'],
@@ -370,8 +370,8 @@ export function buildMerchants() {
       description:
         'Farmacia di paese con servizi di autoanalisi e dermocosmesi. Prenota i tuoi farmaci da HiCom e ritirali quando sono pronti.',
       address: 'Via Giolitti 5, Orbassano',
-      lat: 45.0063,
-      lng: 7.5375,
+      lat: 45.0052,
+      lng: 7.5342,
       phone: '011 901 9902',
       hours: { lun: '08:30–19:30', mar: '08:30–19:30', mer: '08:30–19:30', gio: '08:30–19:30', ven: '08:30–19:30', sab: '08:30–12:30', dom: 'Turni festivi' },
       plugins: ['ordini'],
@@ -404,8 +404,8 @@ export function buildMerchants() {
       description:
         'Pratiche edilizie e catastali, certificazioni energetiche e perizie. Primo confronto telefonico sempre gratuito.',
       address: 'Via De Amicis 11, Orbassano',
-      lat: 45.0058,
-      lng: 7.5347,
+      lat: 45.0028,
+      lng: 7.5322,
       phone: '011 902 1180',
       hours: { lun: '09:00–12:30 · 14:30–18:00', mar: '09:00–12:30 · 14:30–18:00', mer: '09:00–12:30 · 14:30–18:00', gio: '09:00–12:30 · 14:30–18:00', ven: '09:00–12:30', sab: 'Chiuso', dom: 'Chiuso' },
       plugins: [],
@@ -435,8 +435,8 @@ export function buildMerchants() {
       description:
         'Bouquet su misura, piante da interno e allestimenti per cerimonie. Diteci l’occasione, al resto pensiamo noi.',
       address: 'Via Montegrappa 2, Orbassano',
-      lat: 45.0091,
-      lng: 7.5342,
+      lat: 45.011,
+      lng: 7.531,
       phone: '011 902 2264',
       hours: HOURS_SHOP,
       plugins: [],
@@ -469,8 +469,8 @@ export function buildMerchants() {
       description:
         'Agnolotti del plin tirati a mano, brasato al nebbiolo e una carta vini che parla piemontese. Il menu cambia con il mercato.',
       address: 'Via Gozzano 19, Orbassano',
-      lat: 45.0047,
-      lng: 7.5392,
+      lat: 45.0009,
+      lng: 7.5438,
       phone: '011 902 3348',
       hours: { lun: 'Chiuso', mar: '12:15–14:30 · 19:30–22:30', mer: '12:15–14:30 · 19:30–22:30', gio: '12:15–14:30 · 19:30–22:30', ven: '12:15–14:30 · 19:30–23:00', sab: '12:15–15:00 · 19:30–23:00', dom: '12:15–15:00' },
       plugins: ['prenotazioni'],
@@ -623,7 +623,7 @@ export function buildDynamic() {
 
 export function buildSeed() {
   return {
-    version: 3,
+    version: 4,
     merchants: buildMerchants(),
     heroSlides: buildHeroSlides(),
     ...buildDynamic(),

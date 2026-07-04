@@ -1,0 +1,182 @@
+- generic [ref=f22e3]:
+  - banner [ref=f22e4]:
+    - generic [ref=f22e5]:
+      - link "HiCom — home" [ref=f22e6] [cursor=pointer]:
+        - /url: "#/"
+        - generic [ref=f22e7]:
+          - img [ref=f22e8]
+          - generic [ref=f22e12]: HiCom
+      - generic [ref=f22e13]:
+        - img [ref=f22e14]
+        - text: ORBASSANO
+  - main [ref=f22e17]:
+    - generic [ref=f22e18]:
+      - text: Tutta la rete di Orbassano
+      - heading "Esplora gli esercenti" [level=1] [ref=f22e19]
+      - generic [ref=f22e20]:
+        - img [ref=f22e21]
+        - searchbox "Cerca esercenti" [ref=f22e24]
+    - generic [ref=f22e25]:
+      - button "Tutti" [ref=f22e26] [cursor=pointer]
+      - button "🍕 Ristorazione" [ref=f22e27] [cursor=pointer]
+      - button "☕ Bar & Caffè" [ref=f22e28] [cursor=pointer]
+      - button "🥖 Alimentari" [ref=f22e29] [cursor=pointer]
+      - button "💈 Bellezza & Cura" [ref=f22e30] [cursor=pointer]
+      - button "💊 Salute" [ref=f22e31] [cursor=pointer]
+      - button "📐 Servizi & Studi" [ref=f22e32] [cursor=pointer]
+      - button "🔧 Artigiani & Casa" [ref=f22e33] [cursor=pointer]
+      - button "🛍️ Negozi" [ref=f22e34] [cursor=pointer]
+      - generic [ref=f22e35]: "|"
+      - button "Si prenota" [ref=f22e36] [cursor=pointer]
+      - button "Ordina & ritira" [ref=f22e37] [cursor=pointer]
+      - button "Chat" [ref=f22e38] [cursor=pointer]
+      - button "Aperto ora" [ref=f22e39] [cursor=pointer]
+    - generic [ref=f22e41]:
+      - paragraph [ref=f22e42]: 11 esercenti nella rete
+      - generic [ref=f22e43]:
+        - link "Panetteria del Borgo Alimentari · Via Roma 24 Chiuso ora Ordina & ritira 2 offerte" [ref=f22e44] [cursor=pointer]:
+          - /url: "#/esercente/panetteria-del-borgo"
+          - generic [ref=f22e46]:
+            - heading "Panetteria del Borgo" [level=3] [ref=f22e47]
+            - paragraph [ref=f22e48]: Alimentari · Via Roma 24
+            - paragraph [ref=f22e49]: Chiuso ora
+            - generic [ref=f22e51]:
+              - generic [ref=f22e52]: Ordina & ritira
+              - generic [ref=f22e53]: 2 offerte
+        - link "Pizzeria La Torre Ristorazione · Piazza Umberto I 3 Aperto ora Prenota Ordina & ritira Chat 2 offerte" [ref=f22e54] [cursor=pointer]:
+          - /url: "#/esercente/pizzeria-la-torre"
+          - generic [ref=f22e56]:
+            - heading "Pizzeria La Torre" [level=3] [ref=f22e57]
+            - paragraph [ref=f22e58]: Ristorazione · Piazza Umberto I 3
+            - paragraph [ref=f22e59]: Aperto ora
+            - generic [ref=f22e61]:
+              - generic [ref=f22e62]: Prenota
+              - generic [ref=f22e63]: Ordina & ritira
+              - generic [ref=f22e64]: Chat
+              - generic [ref=f22e65]: 2 offerte
+        - link "Caffè Centrale Bar & Caffè · Piazza Umberto I 12 Aperto ora 1 offerta" [ref=f22e66] [cursor=pointer]:
+          - /url: "#/esercente/caffe-centrale"
+          - generic [ref=f22e68]:
+            - heading "Caffè Centrale" [level=3] [ref=f22e69]
+            - paragraph [ref=f22e70]: Bar & Caffè · Piazza Umberto I 12
+            - paragraph [ref=f22e71]: Aperto ora
+            - generic [ref=f22e74]: 1 offerta
+        - link "Studio Dentistico Sorriso Salute · Via Cavour 8 Prenota Chat 1 offerta" [ref=f22e75] [cursor=pointer]:
+          - /url: "#/esercente/studio-dentistico-sorriso"
+          - generic [ref=f22e77]:
+            - heading "Studio Dentistico Sorriso" [level=3] [ref=f22e78]
+            - paragraph [ref=f22e79]: Salute · Via Cavour 8
+            - generic [ref=f22e80]:
+              - generic [ref=f22e81]: Prenota
+              - generic [ref=f22e82]: Chat
+              - generic [ref=f22e83]: 1 offerta
+        - link "StileLibero Parrucchieri Bellezza & Cura · Via Nazario Sauro 15 Chiuso ora Prenota 1 offerta" [ref=f22e84] [cursor=pointer]:
+          - /url: "#/esercente/stilelibero-parrucchieri"
+          - generic [ref=f22e86]:
+            - heading "StileLibero Parrucchieri" [level=3] [ref=f22e87]
+            - paragraph [ref=f22e88]: Bellezza & Cura · Via Nazario Sauro 15
+            - paragraph [ref=f22e89]: Chiuso ora
+            - generic [ref=f22e91]:
+              - generic [ref=f22e92]: Prenota
+              - generic [ref=f22e93]: 1 offerta
+        - link "Ferramenta Beltramo Artigiani & Casa · Strada Torino 41 Chiuso ora 1 offerta" [ref=f22e94] [cursor=pointer]:
+          - /url: "#/esercente/ferramenta-beltramo"
+          - generic [ref=f22e96]:
+            - heading "Ferramenta Beltramo" [level=3] [ref=f22e97]
+            - paragraph [ref=f22e98]: Artigiani & Casa · Strada Torino 41
+            - paragraph [ref=f22e99]: Chiuso ora
+            - generic [ref=f22e102]: 1 offerta
+        - link "Chiara Moda Negozi · Via Roma 56 Chiuso ora Chat 1 offerta" [ref=f22e103] [cursor=pointer]:
+          - /url: "#/esercente/chiara-moda"
+          - generic [ref=f22e105]:
+            - heading "Chiara Moda" [level=3] [ref=f22e106]
+            - paragraph [ref=f22e107]: Negozi · Via Roma 56
+            - paragraph [ref=f22e108]: Chiuso ora
+            - generic [ref=f22e110]:
+              - generic [ref=f22e111]: Chat
+              - generic [ref=f22e112]: 1 offerta
+        - link "Farmacia San Giuseppe Salute · Via Giolitti 5 Chiuso ora Ordina & ritira 1 offerta" [ref=f22e113] [cursor=pointer]:
+          - /url: "#/esercente/farmacia-san-giuseppe"
+          - generic [ref=f22e115]:
+            - heading "Farmacia San Giuseppe" [level=3] [ref=f22e116]
+            - paragraph [ref=f22e117]: Salute · Via Giolitti 5
+            - paragraph [ref=f22e118]: Chiuso ora
+            - generic [ref=f22e120]:
+              - generic [ref=f22e121]: Ordina & ritira
+              - generic [ref=f22e122]: 1 offerta
+        - link "Studio Tecnico Rinaldi Servizi & Studi · Via De Amicis 11 Chiuso ora" [ref=f22e123] [cursor=pointer]:
+          - /url: "#/esercente/studio-tecnico-rinaldi"
+          - generic [ref=f22e125]:
+            - heading "Studio Tecnico Rinaldi" [level=3] [ref=f22e126]
+            - paragraph [ref=f22e127]: Servizi & Studi · Via De Amicis 11
+            - paragraph [ref=f22e128]: Chiuso ora
+        - link "Fioraio Petali Negozi · Via Montegrappa 2 Chiuso ora 1 offerta" [ref=f22e130] [cursor=pointer]:
+          - /url: "#/esercente/fioraio-petali"
+          - generic [ref=f22e132]:
+            - heading "Fioraio Petali" [level=3] [ref=f22e133]
+            - paragraph [ref=f22e134]: Negozi · Via Montegrappa 2
+            - paragraph [ref=f22e135]: Chiuso ora
+            - generic [ref=f22e138]: 1 offerta
+        - link "Osteria del Parco Ristorazione · Via Gozzano 19 Aperto ora Prenota Vetrina curata 1 offerta" [ref=f22e139] [cursor=pointer]:
+          - /url: "#/esercente/osteria-del-parco"
+          - generic [ref=f22e141]:
+            - heading "Osteria del Parco" [level=3] [ref=f22e142]
+            - paragraph [ref=f22e143]: Ristorazione · Via Gozzano 19
+            - paragraph [ref=f22e144]: Aperto ora
+            - generic [ref=f22e146]:
+              - generic [ref=f22e147]: Prenota
+              - generic [ref=f22e148]: Vetrina curata
+              - generic [ref=f22e149]: 1 offerta
+    - tablist "Vista" [ref=f22e150]:
+      - button "Lista" [ref=f22e151] [cursor=pointer]:
+        - img [ref=f22e152]
+        - text: Lista
+      - button "Mappa" [ref=f22e157] [cursor=pointer]:
+        - img [ref=f22e158]
+        - text: Mappa
+  - contentinfo [ref=f22e161]:
+    - generic [ref=f22e162]:
+      - generic [ref=f22e163]:
+        - generic [ref=f22e164]:
+          - img [ref=f22e165]
+          - generic [ref=f22e169]: HiCom
+        - paragraph [ref=f22e170]: "La rete del commercio locale di Orbassano: ogni attività una vetrina, ai cittadini le offerte migliori, al territorio il valore che resta."
+      - generic [ref=f22e171]:
+        - heading "Per i cittadini" [level=4] [ref=f22e172]
+        - generic [ref=f22e173]:
+          - link "Tutti gli esercenti" [ref=f22e174] [cursor=pointer]:
+            - /url: "#/esplora"
+          - link "Offerte attive" [ref=f22e175] [cursor=pointer]:
+            - /url: "#/offerte"
+          - link "Le tue chat" [ref=f22e176] [cursor=pointer]:
+            - /url: "#/chat"
+      - generic [ref=f22e177]:
+        - heading "Per gli esercenti" [level=4] [ref=f22e178]
+        - generic [ref=f22e179]:
+          - link "Accedi alla tua area" [ref=f22e180] [cursor=pointer]:
+            - /url: "#/login"
+          - link "Entra nella rete — da €12/mese" [ref=f22e181] [cursor=pointer]:
+            - /url: "#/login"
+          - link "Amministrazione" [ref=f22e182] [cursor=pointer]:
+            - /url: "#/admin"
+      - generic [ref=f22e183]:
+        - generic [ref=f22e184]: HICOM · PROTOTIPO DIMOSTRATIVO
+        - generic [ref=f22e185]: UN PROGETTO DI GABRIELE CHIBBARO
+        - button "RESET DEMO" [ref=f22e186] [cursor=pointer]
+  - navigation "Navigazione principale" [ref=f22e187]:
+    - link "Home" [ref=f22e188] [cursor=pointer]:
+      - /url: "#/"
+      - img [ref=f22e189]
+      - text: Home
+    - link "Esplora" [ref=f22e192] [cursor=pointer]:
+      - /url: "#/esplora"
+      - img [ref=f22e193]
+      - text: Esplora
+    - link "Offerte" [ref=f22e196] [cursor=pointer]:
+      - /url: "#/offerte"
+      - img [ref=f22e197]
+      - text: Offerte
+    - link "Chat" [ref=f22e199] [cursor=pointer]:
+      - /url: "#/chat"
+      - img [ref=f22e200]
+      - text: Chat

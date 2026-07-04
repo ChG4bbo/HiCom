@@ -1,0 +1,239 @@
+- generic [ref=f22e3]:
+  - banner [ref=f22e4]:
+    - generic [ref=f22e5]:
+      - link "HiCom — home" [ref=f22e6] [cursor=pointer]:
+        - /url: "#/"
+        - generic [ref=f22e7]:
+          - img [ref=f22e8]
+          - generic [ref=f22e12]: HiCom
+      - generic [ref=f22e13]:
+        - img [ref=f22e14]
+        - text: ORBASSANO
+  - main [ref=f22e17]:
+    - link "Torna a Esplora" [ref=f22e291] [cursor=pointer]:
+      - /url: "#/esplora"
+      - img [ref=f22e292]
+    - generic [ref=f22e295]:
+      - generic [ref=f22e296]:
+        - generic [ref=f22e297]: PL
+        - generic [ref=f22e298]:
+          - heading "Pizzeria La Torre" [level=1] [ref=f22e299]
+          - paragraph [ref=f22e300]: Forno a legna in piazza
+      - generic [ref=f22e301]:
+        - generic [ref=f22e302]: Ristorazione
+        - generic [ref=f22e303]: Si prenota
+        - generic [ref=f22e304]: Ordina & ritira
+        - generic [ref=f22e305]: Chat
+      - generic [ref=f22e306]:
+        - generic [ref=f22e307]:
+          - img [ref=f22e308]
+          - text: Piazza Umberto I 3, Orbassano
+        - generic [ref=f22e311]: Aperto ora · oggi 12:00–14:30 · 18:30–24:00
+      - generic [ref=f22e313]:
+        - link "Prenota un tavolo" [ref=f22e314] [cursor=pointer]:
+          - /url: "#/esercente/pizzeria-la-torre/prenota"
+          - img [ref=f22e315]
+          - text: Prenota un tavolo
+        - link "Ordina & ritira" [ref=f22e318] [cursor=pointer]:
+          - /url: "#/esercente/pizzeria-la-torre/ordina"
+          - img [ref=f22e319]
+          - text: Ordina & ritira
+        - link "Scrivici" [ref=f22e322] [cursor=pointer]:
+          - /url: "#/chat/pizzeria-la-torre"
+          - img [ref=f22e323]
+          - text: Scrivici
+        - link "Chiama" [ref=f22e325] [cursor=pointer]:
+          - /url: tel:0119013342
+          - img [ref=f22e326]
+          - text: Chiama
+    - generic [ref=f22e328]:
+      - generic [ref=f22e329]: Da usare in cassa
+      - heading "Offerte attive" [level=2] [ref=f22e330]
+      - generic [ref=f22e331]:
+        - article [ref=f22e332]:
+          - generic [ref=f22e333]:
+            - 'link "Pizzeria La Torre Martedì pizza: Margherita a €5" [ref=f22e334] [cursor=pointer]':
+              - /url: "#/esercente/pizzeria-la-torre"
+              - text: Pizzeria La Torre
+              - 'heading "Martedì pizza: Margherita a €5" [level=3] [ref=f22e335]'
+            - paragraph [ref=f22e336]: Valida fino a lun 3 ago
+          - generic [ref=f22e337]:
+            - generic [ref=f22e338]: Codice sconto
+            - button "Mostra codice" [ref=f22e339] [cursor=pointer]
+        - article [ref=f22e340]:
+          - generic [ref=f22e341]:
+            - 'link "Pizzeria La Torre Menu famiglia: 2 pizze + 2 baby €28" [ref=f22e342] [cursor=pointer]':
+              - /url: "#/esercente/pizzeria-la-torre"
+              - text: Pizzeria La Torre
+              - 'heading "Menu famiglia: 2 pizze + 2 baby €28" [level=3] [ref=f22e343]'
+            - paragraph [ref=f22e344]: Valida fino a mer 22 lug
+          - generic [ref=f22e345]:
+            - generic [ref=f22e346]: Codice sconto
+            - button "Mostra codice" [ref=f22e347] [cursor=pointer]
+    - generic [ref=f22e348]:
+      - generic [ref=f22e349]: La vetrina
+      - heading "Prodotti e servizi" [level=2] [ref=f22e350]
+      - generic [ref=f22e351]:
+        - button "Margherita €6,50 Classica San Marzano, fior di latte, basilico. Ordina e ritira" [ref=f22e352] [cursor=pointer]:
+          - generic [ref=f22e354]:
+            - heading "Margherita" [level=3] [ref=f22e355]
+            - generic [ref=f22e356]: €6,50
+            - generic [ref=f22e358]: Classica
+            - generic:
+              - paragraph [ref=f22e359]: San Marzano, fior di latte, basilico.
+              - link "Ordina e ritira" [ref=f22e360]:
+                - img [ref=f22e361]
+                - text: Ordina e ritira
+        - button "Marinara €5,50 Vegana Pomodoro, aglio, origano, olio EVO. Ordina e ritira" [ref=f22e364] [cursor=pointer]:
+          - generic [ref=f22e366]:
+            - heading "Marinara" [level=3] [ref=f22e367]
+            - generic [ref=f22e368]: €5,50
+            - generic [ref=f22e370]: Vegana
+            - generic:
+              - paragraph [ref=f22e371]: Pomodoro, aglio, origano, olio EVO.
+              - link "Ordina e ritira" [ref=f22e372]:
+                - img [ref=f22e373]
+                - text: Ordina e ritira
+        - button "La Torre — 4 stagioni €9 La specialità Prosciutto, funghi, carciofi e olive taggiasche. Ordina e ritira" [ref=f22e376] [cursor=pointer]:
+          - generic [ref=f22e378]:
+            - heading "La Torre — 4 stagioni" [level=3] [ref=f22e379]
+            - generic [ref=f22e380]: €9
+            - generic [ref=f22e382]: La specialità
+            - generic:
+              - paragraph [ref=f22e383]: Prosciutto, funghi, carciofi e olive taggiasche.
+              - link "Ordina e ritira" [ref=f22e384]:
+                - img [ref=f22e385]
+                - text: Ordina e ritira
+        - button "Padellino della casa €8,50 Torinese Doppia lievitazione in teglia, bordo croccante. Ordina e ritira" [ref=f22e388] [cursor=pointer]:
+          - generic [ref=f22e390]:
+            - heading "Padellino della casa" [level=3] [ref=f22e391]
+            - generic [ref=f22e392]: €8,50
+            - generic [ref=f22e394]: Torinese
+            - generic:
+              - paragraph [ref=f22e395]: Doppia lievitazione in teglia, bordo croccante.
+              - link "Ordina e ritira" [ref=f22e396]:
+                - img [ref=f22e397]
+                - text: Ordina e ritira
+        - button "Calzone del forno €8 Ricotta, salame piccante e fior di latte. Ordina e ritira" [ref=f22e400] [cursor=pointer]:
+          - generic [ref=f22e402]:
+            - heading "Calzone del forno" [level=3] [ref=f22e403]
+            - generic [ref=f22e404]: €8
+            - generic:
+              - paragraph [ref=f22e405]: Ricotta, salame piccante e fior di latte.
+              - link "Ordina e ritira" [ref=f22e406]:
+                - img [ref=f22e407]
+                - text: Ordina e ritira
+        - button "Bufala DOP €9,50 DOP Con mozzarella di bufala campana aggiunta a crudo. Ordina e ritira" [ref=f22e410] [cursor=pointer]:
+          - generic [ref=f22e412]:
+            - heading "Bufala DOP" [level=3] [ref=f22e413]
+            - generic [ref=f22e414]: €9,50
+            - generic [ref=f22e416]: DOP
+            - generic:
+              - paragraph [ref=f22e417]: Con mozzarella di bufala campana aggiunta a crudo.
+              - link "Ordina e ritira" [ref=f22e418]:
+                - img [ref=f22e419]
+                - text: Ordina e ritira
+    - generic [ref=f22e422]:
+      - generic [ref=f22e424]:
+        - generic [ref=f22e425]: Dal profilo
+        - heading "Post recenti" [level=2] [ref=f22e426]
+        - generic [ref=f22e427]:
+          - button "Apri post" [ref=f22e428] [cursor=pointer]
+          - button "Apri post" [ref=f22e429] [cursor=pointer]
+          - button "Apri post" [ref=f22e430] [cursor=pointer]
+      - generic [ref=f22e431]:
+        - generic [ref=f22e432]: Informazioni
+        - heading "Orari e contatti" [level=2] [ref=f22e433]
+        - generic [ref=f22e434]:
+          - table [ref=f22e435]:
+            - rowgroup [ref=f22e436]:
+              - row "Lunedì Chiuso" [ref=f22e437]:
+                - cell "Lunedì" [ref=f22e438]
+                - cell "Chiuso" [ref=f22e439]
+              - row "Martedì 18:30–23:30" [ref=f22e440]:
+                - cell "Martedì" [ref=f22e441]
+                - cell "18:30–23:30" [ref=f22e442]
+              - row "Mercoledì 18:30–23:30" [ref=f22e443]:
+                - cell "Mercoledì" [ref=f22e444]
+                - cell "18:30–23:30" [ref=f22e445]
+              - row "Giovedì 18:30–23:30" [ref=f22e446]:
+                - cell "Giovedì" [ref=f22e447]
+                - cell "18:30–23:30" [ref=f22e448]
+              - row "Venerdì 18:30–24:00" [ref=f22e449]:
+                - cell "Venerdì" [ref=f22e450]
+                - cell "18:30–24:00" [ref=f22e451]
+              - row "Sabato 12:00–14:30 · 18:30–24:00" [ref=f22e452]:
+                - cell "Sabato" [ref=f22e453]
+                - cell "12:00–14:30 · 18:30–24:00" [ref=f22e454]
+              - row "Domenica 12:00–14:30 · 18:30–23:30" [ref=f22e455]:
+                - cell "Domenica" [ref=f22e456]
+                - cell "12:00–14:30 · 18:30–23:30" [ref=f22e457]
+          - paragraph [ref=f22e458]:
+            - img [ref=f22e459]
+            - text: 011 901 3342
+        - generic [ref=f22e462]:
+          - button "🍕" [ref=f22e463] [cursor=pointer]:
+            - generic [ref=f22e465]: 🍕
+          - generic:
+            - generic:
+              - generic [ref=f22e466]:
+                - button "Zoom in" [ref=f22e467] [cursor=pointer]: +
+                - button "Zoom out" [ref=f22e468] [cursor=pointer]: −
+              - generic [ref=f22e469]:
+                - link "Leaflet" [ref=f22e470] [cursor=pointer]:
+                  - /url: https://leafletjs.com
+                  - img [ref=f22e471]
+                  - text: Leaflet
+                - text: "| © OpenStreetMap © CARTO"
+    - generic [ref=f22e476]:
+      - generic [ref=f22e477]:
+        - strong [ref=f22e478]: Sei il titolare di Pizzeria La Torre?
+        - paragraph [ref=f22e479]: Gestisci vetrina, offerte e servizi in autonomia dalla tua area personale.
+      - link "Area esercente" [ref=f22e480] [cursor=pointer]:
+        - /url: "#/login"
+  - contentinfo [ref=f22e161]:
+    - generic [ref=f22e162]:
+      - generic [ref=f22e163]:
+        - generic [ref=f22e164]:
+          - img [ref=f22e165]
+          - generic [ref=f22e169]: HiCom
+        - paragraph [ref=f22e170]: "La rete del commercio locale di Orbassano: ogni attività una vetrina, ai cittadini le offerte migliori, al territorio il valore che resta."
+      - generic [ref=f22e171]:
+        - heading "Per i cittadini" [level=4] [ref=f22e172]
+        - generic [ref=f22e173]:
+          - link "Tutti gli esercenti" [ref=f22e174] [cursor=pointer]:
+            - /url: "#/esplora"
+          - link "Offerte attive" [ref=f22e175] [cursor=pointer]:
+            - /url: "#/offerte"
+          - link "Le tue chat" [ref=f22e176] [cursor=pointer]:
+            - /url: "#/chat"
+      - generic [ref=f22e177]:
+        - heading "Per gli esercenti" [level=4] [ref=f22e178]
+        - generic [ref=f22e179]:
+          - link "Accedi alla tua area" [ref=f22e180] [cursor=pointer]:
+            - /url: "#/login"
+          - link "Entra nella rete — da €12/mese" [ref=f22e181] [cursor=pointer]:
+            - /url: "#/login"
+          - link "Amministrazione" [ref=f22e182] [cursor=pointer]:
+            - /url: "#/admin"
+      - generic [ref=f22e183]:
+        - generic [ref=f22e184]: HICOM · PROTOTIPO DIMOSTRATIVO
+        - generic [ref=f22e185]: UN PROGETTO DI GABRIELE CHIBBARO
+        - button "RESET DEMO" [ref=f22e186] [cursor=pointer]
+  - navigation "Navigazione principale" [ref=f22e187]:
+    - link "Home" [ref=f22e188] [cursor=pointer]:
+      - /url: "#/"
+      - img [ref=f22e189]
+      - text: Home
+    - link "Esplora" [ref=f22e192] [cursor=pointer]:
+      - /url: "#/esplora"
+      - img [ref=f22e193]
+      - text: Esplora
+    - link "Offerte" [ref=f22e196] [cursor=pointer]:
+      - /url: "#/offerte"
+      - img [ref=f22e197]
+      - text: Offerte
+    - link "Chat" [ref=f22e199] [cursor=pointer]:
+      - /url: "#/chat"
+      - img [ref=f22e200]
+      - text: Chat

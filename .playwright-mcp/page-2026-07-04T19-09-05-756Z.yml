@@ -1,0 +1,124 @@
+- generic [ref=f22e3]:
+  - banner [ref=f22e4]:
+    - generic [ref=f22e5]:
+      - link "HiCom — home" [ref=f22e6] [cursor=pointer]:
+        - /url: "#/"
+        - generic [ref=f22e7]:
+          - img [ref=f22e8]
+          - generic [ref=f22e12]: HiCom
+      - generic [ref=f22e13]:
+        - img [ref=f22e14]
+        - text: ORBASSANO
+  - main [ref=f22e17]:
+    - generic [ref=f22e18]:
+      - text: Tutta la rete di Orbassano
+      - heading "Esplora gli esercenti" [level=1] [ref=f22e19]
+      - generic [ref=f22e20]:
+        - img [ref=f22e21]
+        - searchbox "Cerca esercenti" [ref=f22e24]
+    - generic [ref=f22e25]:
+      - button "Tutti" [ref=f22e26] [cursor=pointer]
+      - button "🍕 Ristorazione" [ref=f22e27] [cursor=pointer]
+      - button "☕ Bar & Caffè" [ref=f22e28] [cursor=pointer]
+      - button "🥖 Alimentari" [ref=f22e29] [cursor=pointer]
+      - button "💈 Bellezza & Cura" [ref=f22e30] [cursor=pointer]
+      - button "💊 Salute" [ref=f22e31] [cursor=pointer]
+      - button "📐 Servizi & Studi" [ref=f22e32] [cursor=pointer]
+      - button "🔧 Artigiani & Casa" [ref=f22e33] [cursor=pointer]
+      - button "🛍️ Negozi" [ref=f22e34] [cursor=pointer]
+      - generic [ref=f22e35]: "|"
+      - button "Si prenota" [ref=f22e36] [cursor=pointer]
+      - button "Ordina & ritira" [ref=f22e37] [cursor=pointer]
+      - button "Chat" [ref=f22e38] [cursor=pointer]
+      - button "Aperto ora" [ref=f22e39] [cursor=pointer]
+    - generic [ref=f22e203]:
+      - generic:
+        - generic:
+          - img
+        - generic:
+          - button "🥖" [ref=f22e204] [cursor=pointer]:
+            - generic [ref=f22e206]: 🥖
+          - button "🍕" [ref=f22e207] [cursor=pointer]:
+            - generic [ref=f22e209]: 🍕
+          - button "☕" [ref=f22e210] [cursor=pointer]:
+            - generic [ref=f22e212]: ☕
+          - button "💊" [ref=f22e213] [cursor=pointer]:
+            - generic [ref=f22e215]: 💊
+          - button "💈" [ref=f22e216] [cursor=pointer]:
+            - generic [ref=f22e218]: 💈
+          - button "🔧" [ref=f22e219] [cursor=pointer]:
+            - generic [ref=f22e221]: 🔧
+          - button "🛍️" [ref=f22e222] [cursor=pointer]:
+            - generic [ref=f22e224]: 🛍️
+          - button "💊" [ref=f22e225] [cursor=pointer]:
+            - generic [ref=f22e227]: 💊
+          - button "📐" [ref=f22e228] [cursor=pointer]:
+            - generic [ref=f22e230]: 📐
+          - button "🛍️" [ref=f22e231] [cursor=pointer]:
+            - generic [ref=f22e233]: 🛍️
+          - button "🍕" [ref=f22e234] [cursor=pointer]:
+            - generic [ref=f22e236]: 🍕
+      - generic:
+        - generic:
+          - generic [ref=f22e237]:
+            - button "Zoom in" [ref=f22e238] [cursor=pointer]: +
+            - button "Zoom out" [disabled] [ref=f22e239]: −
+          - generic [ref=f22e240]:
+            - link "Leaflet" [ref=f22e241] [cursor=pointer]:
+              - /url: https://leafletjs.com
+              - img [ref=f22e242]
+              - text: Leaflet
+            - text: "| © OpenStreetMap © CARTO"
+    - tablist "Vista" [ref=f22e150]:
+      - button "Lista" [ref=f22e151] [cursor=pointer]:
+        - img [ref=f22e152]
+        - text: Lista
+      - button "Mappa" [active] [ref=f22e157] [cursor=pointer]:
+        - img [ref=f22e158]
+        - text: Mappa
+  - contentinfo [ref=f22e161]:
+    - generic [ref=f22e162]:
+      - generic [ref=f22e163]:
+        - generic [ref=f22e164]:
+          - img [ref=f22e165]
+          - generic [ref=f22e169]: HiCom
+        - paragraph [ref=f22e170]: "La rete del commercio locale di Orbassano: ogni attività una vetrina, ai cittadini le offerte migliori, al territorio il valore che resta."
+      - generic [ref=f22e171]:
+        - heading "Per i cittadini" [level=4] [ref=f22e172]
+        - generic [ref=f22e173]:
+          - link "Tutti gli esercenti" [ref=f22e174] [cursor=pointer]:
+            - /url: "#/esplora"
+          - link "Offerte attive" [ref=f22e175] [cursor=pointer]:
+            - /url: "#/offerte"
+          - link "Le tue chat" [ref=f22e176] [cursor=pointer]:
+            - /url: "#/chat"
+      - generic [ref=f22e177]:
+        - heading "Per gli esercenti" [level=4] [ref=f22e178]
+        - generic [ref=f22e179]:
+          - link "Accedi alla tua area" [ref=f22e180] [cursor=pointer]:
+            - /url: "#/login"
+          - link "Entra nella rete — da €12/mese" [ref=f22e181] [cursor=pointer]:
+            - /url: "#/login"
+          - link "Amministrazione" [ref=f22e182] [cursor=pointer]:
+            - /url: "#/admin"
+      - generic [ref=f22e183]:
+        - generic [ref=f22e184]: HICOM · PROTOTIPO DIMOSTRATIVO
+        - generic [ref=f22e185]: UN PROGETTO DI GABRIELE CHIBBARO
+        - button "RESET DEMO" [ref=f22e186] [cursor=pointer]
+  - navigation "Navigazione principale" [ref=f22e187]:
+    - link "Home" [ref=f22e188] [cursor=pointer]:
+      - /url: "#/"
+      - img [ref=f22e189]
+      - text: Home
+    - link "Esplora" [ref=f22e192] [cursor=pointer]:
+      - /url: "#/esplora"
+      - img [ref=f22e193]
+      - text: Esplora
+    - link "Offerte" [ref=f22e196] [cursor=pointer]:
+      - /url: "#/offerte"
+      - img [ref=f22e197]
+      - text: Offerte
+    - link "Chat" [ref=f22e199] [cursor=pointer]:
+      - /url: "#/chat"
+      - img [ref=f22e200]
+      - text: Chat

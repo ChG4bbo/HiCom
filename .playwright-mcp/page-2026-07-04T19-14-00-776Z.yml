@@ -1,0 +1,81 @@
+- generic [ref=f22e3]:
+  - banner [ref=f22e4]:
+    - generic [ref=f22e5]:
+      - link "HiCom — home" [ref=f22e6] [cursor=pointer]:
+        - /url: "#/"
+        - generic [ref=f22e7]:
+          - img [ref=f22e8]
+          - generic [ref=f22e12]: HiCom
+      - generic [ref=f22e13]:
+        - img [ref=f22e14]
+        - text: ORBASSANO
+  - main [ref=f22e17]:
+    - generic [ref=f22e553]:
+      - generic [ref=f22e554]:
+        - link "Torna alle chat" [ref=f22e555] [cursor=pointer]:
+          - /url: "#/chat"
+          - img [ref=f22e556]
+        - link [ref=f22e558] [cursor=pointer]:
+          - /url: "#/esercente/chiara-moda"
+          - generic [ref=f22e559]: CM
+        - generic [ref=f22e560]:
+          - heading "Chiara Moda" [level=1] [ref=f22e561]
+          - paragraph [ref=f22e562]: di solito risponde in giornata
+      - generic [ref=f22e563]:
+        - generic [ref=f22e564]:
+          - text: Ciao! Il blazer in lino salvia c’è ancora in taglia M?
+          - time [ref=f22e565]: 10:21
+        - generic [ref=f22e571]:
+          - text: Il foulard della serie limitata è ancora disponibile?
+          - time [ref=f22e572]: 21:14
+      - generic [ref=f22e566]:
+        - textbox "Messaggio" [ref=f22e567]:
+          - /placeholder: Scrivi un messaggio…
+        - button "Invia" [disabled] [ref=f22e568] [cursor=pointer]:
+          - img [ref=f22e569]
+  - contentinfo [ref=f22e161]:
+    - generic [ref=f22e162]:
+      - generic [ref=f22e163]:
+        - generic [ref=f22e164]:
+          - img [ref=f22e165]
+          - generic [ref=f22e169]: HiCom
+        - paragraph [ref=f22e170]: "La rete del commercio locale di Orbassano: ogni attività una vetrina, ai cittadini le offerte migliori, al territorio il valore che resta."
+      - generic [ref=f22e171]:
+        - heading "Per i cittadini" [level=4] [ref=f22e172]
+        - generic [ref=f22e173]:
+          - link "Tutti gli esercenti" [ref=f22e174] [cursor=pointer]:
+            - /url: "#/esplora"
+          - link "Offerte attive" [ref=f22e175] [cursor=pointer]:
+            - /url: "#/offerte"
+          - link "Le tue chat" [ref=f22e176] [cursor=pointer]:
+            - /url: "#/chat"
+      - generic [ref=f22e177]:
+        - heading "Per gli esercenti" [level=4] [ref=f22e178]
+        - generic [ref=f22e179]:
+          - link "Accedi alla tua area" [ref=f22e180] [cursor=pointer]:
+            - /url: "#/login"
+          - link "Entra nella rete — da €12/mese" [ref=f22e181] [cursor=pointer]:
+            - /url: "#/login"
+          - link "Amministrazione" [ref=f22e182] [cursor=pointer]:
+            - /url: "#/admin"
+      - generic [ref=f22e183]:
+        - generic [ref=f22e184]: HICOM · PROTOTIPO DIMOSTRATIVO
+        - generic [ref=f22e185]: UN PROGETTO DI GABRIELE CHIBBARO
+        - button "RESET DEMO" [ref=f22e186] [cursor=pointer]
+  - navigation "Navigazione principale" [ref=f22e187]:
+    - link "Home" [ref=f22e188] [cursor=pointer]:
+      - /url: "#/"
+      - img [ref=f22e189]
+      - text: Home
+    - link "Esplora" [ref=f22e192] [cursor=pointer]:
+      - /url: "#/esplora"
+      - img [ref=f22e193]
+      - text: Esplora
+    - link "Offerte" [ref=f22e196] [cursor=pointer]:
+      - /url: "#/offerte"
+      - img [ref=f22e197]
+      - text: Offerte
+    - link "Chat" [ref=f22e199] [cursor=pointer]:
+      - /url: "#/chat"
+      - img [ref=f22e200]
+      - text: Chat

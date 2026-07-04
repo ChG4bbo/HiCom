@@ -28,6 +28,19 @@ function load() {
 let state = load()
 const listeners = new Set()
 
+/* sincronizzazione tra schede: la demo può girare in due finestre
+   affiancate (cittadino + pannello esercente) sempre allineate */
+window.addEventListener('storage', (e) => {
+  if (e.key === KEY && e.newValue) {
+    try {
+      state = JSON.parse(e.newValue)
+      listeners.forEach((fn) => fn())
+    } catch {
+      /* ignora payload non validi */
+    }
+  }
+})
+
 function commit() {
   state = { ...state }
   try {

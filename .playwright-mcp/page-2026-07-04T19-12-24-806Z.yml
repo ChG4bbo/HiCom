@@ -1,0 +1,122 @@
+- generic [ref=f22e3]:
+  - banner [ref=f22e4]:
+    - generic [ref=f22e5]:
+      - link "HiCom — home" [ref=f22e6] [cursor=pointer]:
+        - /url: "#/"
+        - generic [ref=f22e7]:
+          - img [ref=f22e8]
+          - generic [ref=f22e12]: HiCom
+      - generic [ref=f22e13]:
+        - img [ref=f22e14]
+        - text: ORBASSANO
+  - main [ref=f22e17]:
+    - generic [ref=f22e482]:
+      - generic [ref=f22e483]:
+        - link "Indietro" [ref=f22e484] [cursor=pointer]:
+          - /url: "#/esercente/pizzeria-la-torre"
+          - img [ref=f22e485]
+        - generic [ref=f22e487]: PL
+        - generic [ref=f22e488]:
+          - heading "Prenota un tavolo" [level=1] [ref=f22e489]
+          - paragraph [ref=f22e490]: Pizzeria La Torre · Piazza Umberto I 3
+      - generic [ref=f22e491]:
+        - generic [ref=f22e492]: 1 · Scegli il giorno
+        - generic [ref=f22e493]:
+          - button "Oggi 4" [ref=f22e494] [cursor=pointer]:
+            - generic [ref=f22e495]: Oggi
+            - text: "4"
+          - button "Domani 5" [ref=f22e496] [cursor=pointer]:
+            - generic [ref=f22e497]: Domani
+            - text: "5"
+          - button "mar 7" [ref=f22e498] [cursor=pointer]:
+            - generic [ref=f22e499]: mar
+            - text: "7"
+          - button "mer 8" [ref=f22e500] [cursor=pointer]:
+            - generic [ref=f22e501]: mer
+            - text: "8"
+          - button "gio 9" [ref=f22e502] [cursor=pointer]:
+            - generic [ref=f22e503]: gio
+            - text: "9"
+          - button "ven 10" [ref=f22e504] [cursor=pointer]:
+            - generic [ref=f22e505]: ven
+            - text: "10"
+          - button "sab 11" [ref=f22e506] [cursor=pointer]:
+            - generic [ref=f22e507]: sab
+            - text: "11"
+      - generic [ref=f22e508]:
+        - generic [ref=f22e509]: 2 · Scegli l'orario
+        - generic [ref=f22e510]:
+          - button "19:00" [ref=f22e511] [cursor=pointer]
+          - button "19:30" [ref=f22e512] [cursor=pointer]
+          - button "20:00" [ref=f22e513] [cursor=pointer]
+          - button "20:30" [ref=f22e514] [cursor=pointer]
+          - button "21:00" [ref=f22e515] [cursor=pointer]
+          - button "21:30" [ref=f22e516] [cursor=pointer]
+      - generic [ref=f22e517]:
+        - generic [ref=f22e518]: 3 · Quante persone?
+        - generic [ref=f22e519]:
+          - button "Meno" [ref=f22e520] [cursor=pointer]: −
+          - generic [ref=f22e521]: "2"
+          - button "Più" [ref=f22e522] [cursor=pointer]: +
+      - generic [ref=f22e523]:
+        - generic [ref=f22e524]: 4 · I tuoi dati
+        - generic [ref=f22e525]:
+          - generic [ref=f22e526]: Nome e cognome
+          - textbox "Nome e cognome" [ref=f22e527]:
+            - /placeholder: Mario Rossi
+        - generic [ref=f22e528]:
+          - generic [ref=f22e529]: Telefono
+          - textbox "Telefono" [ref=f22e530]:
+            - /placeholder: 333 1234567
+        - generic [ref=f22e531]:
+          - generic [ref=f22e532]: Nota (facoltativa)
+          - textbox "Nota (facoltativa)" [ref=f22e533]:
+            - /placeholder: Es. tavolo nel dehors, seggiolone…
+      - button "Invia la richiesta" [disabled]
+      - paragraph [ref=f22e534]: "Nessuna registrazione richiesta: ricevi il codice e mostralo all'arrivo."
+  - contentinfo [ref=f22e161]:
+    - generic [ref=f22e162]:
+      - generic [ref=f22e163]:
+        - generic [ref=f22e164]:
+          - img [ref=f22e165]
+          - generic [ref=f22e169]: HiCom
+        - paragraph [ref=f22e170]: "La rete del commercio locale di Orbassano: ogni attività una vetrina, ai cittadini le offerte migliori, al territorio il valore che resta."
+      - generic [ref=f22e171]:
+        - heading "Per i cittadini" [level=4] [ref=f22e172]
+        - generic [ref=f22e173]:
+          - link "Tutti gli esercenti" [ref=f22e174] [cursor=pointer]:
+            - /url: "#/esplora"
+          - link "Offerte attive" [ref=f22e175] [cursor=pointer]:
+            - /url: "#/offerte"
+          - link "Le tue chat" [ref=f22e176] [cursor=pointer]:
+            - /url: "#/chat"
+      - generic [ref=f22e177]:
+        - heading "Per gli esercenti" [level=4] [ref=f22e178]
+        - generic [ref=f22e179]:
+          - link "Accedi alla tua area" [ref=f22e180] [cursor=pointer]:
+            - /url: "#/login"
+          - link "Entra nella rete — da €12/mese" [ref=f22e181] [cursor=pointer]:
+            - /url: "#/login"
+          - link "Amministrazione" [ref=f22e182] [cursor=pointer]:
+            - /url: "#/admin"
+      - generic [ref=f22e183]:
+        - generic [ref=f22e184]: HICOM · PROTOTIPO DIMOSTRATIVO
+        - generic [ref=f22e185]: UN PROGETTO DI GABRIELE CHIBBARO
+        - button "RESET DEMO" [ref=f22e186] [cursor=pointer]
+  - navigation "Navigazione principale" [ref=f22e187]:
+    - link "Home" [ref=f22e188] [cursor=pointer]:
+      - /url: "#/"
+      - img [ref=f22e189]
+      - text: Home
+    - link "Esplora" [ref=f22e192] [cursor=pointer]:
+      - /url: "#/esplora"
+      - img [ref=f22e193]
+      - text: Esplora
+    - link "Offerte" [ref=f22e196] [cursor=pointer]:
+      - /url: "#/offerte"
+      - img [ref=f22e197]
+      - text: Offerte
+    - link "Chat" [ref=f22e199] [cursor=pointer]:
+      - /url: "#/chat"
+      - img [ref=f22e200]
+      - text: Chat

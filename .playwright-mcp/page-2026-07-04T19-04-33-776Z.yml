@@ -1,0 +1,14 @@
+- generic [ref=f4e3]:
+  - generic [ref=f4e4]: "[plugin:vite:import-analysis] Failed to resolve import \"./pages/citizen/MerchantDetail\" from \"src/App.jsx\". Does the file exist?"
+  - generic [ref=f4e5]: /home/gabs/Projects/StandalonePojects/SmartCommerce/src/App.jsx:7:27
+  - generic [ref=f4e6]: 21 | import Esplora from "./pages/citizen/Esplora"; 22 | import Offerte from "./pages/citizen/Offerte"; 23 | import MerchantDetail from "./pages/citizen/MerchantDetail"; | ^ 24 | import Prenota from "./pages/citizen/Prenota"; 25 | import Ordina from "./pages/citizen/Ordina";
+  - generic [ref=f4e7]: at TransformPluginContext._formatError (file:///home/gabs/Projects/StandalonePojects/SmartCommerce/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49258:41) at TransformPluginContext.error (file:///home/gabs/Projects/StandalonePojects/SmartCommerce/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49253:16) at normalizeUrl (file:///home/gabs/Projects/StandalonePojects/SmartCommerce/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64307:23) at process.processTicksAndRejections (node:internal/process/task_queues:103:5) at async file:///home/gabs/Projects/StandalonePojects/SmartCommerce/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64439:39 at async Promise.all (index 9) at async TransformPluginContext.transform (file:///home/gabs/Projects/StandalonePojects/SmartCommerce/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64366:7) at async PluginContainer.transform (file:///home/gabs/Projects/StandalonePojects/SmartCommerce/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:49099:18) at async loadAndTransform (file:///home/gabs/Projects/StandalonePojects/SmartCommerce/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51978:27) at async viteTransformMiddleware (file:///home/gabs/Projects/StandalonePojects/SmartCommerce/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:62106:24
+  - generic [ref=f4e8]:
+    - text: Click outside, press Esc key, or fix the code to dismiss.
+    - text: You can also disable this overlay by setting
+    - code [ref=f4e9]: server.hmr.overlay
+    - text: to
+    - code [ref=f4e10]: "false"
+    - text: in
+    - code [ref=f4e11]: vite.config.js
+    - text: .
